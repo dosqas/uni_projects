@@ -1,0 +1,45 @@
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
+#include <string.h>
+
+int main()
+{
+                int pid, state;
+                char file[100], key[10], cryptfile[300];
+                printf("Enter file name:");
+                scanf("%s", file);
+                printf("Enter key:");
+                scanf("%s", key);
+                if ((pid = fork()) != 0)
+                {
+                        wait(&state);
+                }
+                else
+                {
+                    char buffer[200];
+                    pid=getpid();
+
+                    strcpy(cryptfile, file);
+                    strcat(cryptfile, ".crypt");
+                    FILE* tocrypt = fopen(file, "r");
+                    FILE* crypt = fopen(cryptfile, "w");
+
+                    while (!feof(tocrypt))
+                    {
+                        fread(buffer, sizeof(buffer), 1, tocrypt);
+                        for (int i=0; i < strlen(buffer); i++)
+                        {
+                                buffer[i] ^= key[0];
+                        }
+                        fwrite(buffer, strlen(buffer), 1, crypt);
+                    }
+                    exit(10);
+                }
+
+                strcpy(cryptfile, file);
+                strcat(cryptfile, ".crypt");
+                printf("Result written in %s\n", cryptfile);
+}
