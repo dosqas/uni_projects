@@ -1,0 +1,209 @@
+[1]
+#!/bin/bash
+
+users=$(cat who.fake | cut -d ' ' -f 1 | grep -v '^$' | sort -u)
+
+for user in $users; do
+        pc=$(grep -c "$user" ps.fake)
+        echo "$user $(($pc-1))"
+done
+
+
+
+
+[2]
+#!/bin/bash
+
+echo "Enter directory:"; read dir
+echo
+
+if [ ! -d "$dir" ]; then
+        echo "Not a directory."
+exit 1
+fi
+
+count=0
+
+while IFS= read -r file; do
+        line_count=$(wc -l < "$file")
+        if [[ $file == *.c && $line_count -gt 500 ]]; then
+                echo "$file has more than 500 lines."
+                ((count++))
+
+                if [ $count -eq 2 ]; then
+                        break
+                fi
+        fi
+done < <(find "$dir" -type f)
+
+if [ $count -eq 0 ]; then
+        echo "No .c files found with more than 500 lines"
+fi
+
+
+
+
+[3]
+#!/bin/bash
+
+echo "Enter directory:"; read dir
+if [ ! -d "$dir" ]; then
+        echo "Not a directory."
+exit 1
+fi
+echo
+
+while read -r file; do
+        if [[ $file == *.log ]]; then
+                sort -o "$file" "$file"
+        fi
+done < <(find "$dir" -type f)
+
+echo "All done!"
+
+
+
+
+[4]
+#!/bin/bash
+
+echo "Enter directory:"; read dir
+
+if [ ! -d "$dir" ]; then
+        echo "Not a directory."
+        exit 1
+fi
+
+
+while read -r symLink; do
+        if [[ -L "$symLink" && ! -e "$symLink" ]]; then
+                echo "Broken symbolic link: $symLink"
+        fi
+done < <(find "$dir" -type l)
+
+echo "Done!"
+
+
+
+
+[5]
+#!/bin/bash
+
+monitor() {
+        while true; do
+                for program in "$@"; do
+                        if pgrep -x "$program" > /dev/null; then
+                                pkill -x "$program"
+                                echo "Killed dangerous program: $program"
+                        fi
+                done
+                sleep 1
+        done
+}
+
+if [ "$#" -eq 0 ]; then
+        echo "No dangerous program names provided."
+        exit 1
+fi
+
+monitor "$@"
+
+
+
+
+[6]
+#!/bin/bash
+
+echo "Enter directory:";read dir
+
+if [ ! -d "$dir" ]; then
+        echo "Not a directory."
+        exit 1
+fi
+
+while read -r file; do
+        if ls -l "$file"| sed 's/ \{2,\}/ /g' | cut -d ' ' -f 1,9 | grep -qE "^-.{7}w"; then
+                ls -l "$file"| sed 's/ \{2,\}/ /g' | cut -d ' ' -f 1,9
+                chmod o-w "$file"
+                ls -l "$file"| sed 's/ \{2,\}/ /g' | cut -d ' ' -f 1,9
+        fi
+done < <(find "$dir" -type f)
+
+echo "All done!"
+
+
+
+
+[7]
+#!/bin/bash
+
+file="$1"
+emailstring=""
+
+while read -r username; do
+        if id "$username" >/dev/null 2>&1; then
+                emailstring+="$username@scs.ubbcluj.ro,"
+        fi
+done < "$file"
+
+emailstring=${emailstring%,}
+
+echo "$emailstring"
+
+
+
+
+[8]
+#!/bin/bash
+
+filteredfile=$(sed 's/ \{2,\}/ /g' df.fake | tail -n +2 | cut -d ' ' -f 2,5,6)
+
+while read -r size space mount; do
+        if [[ ${size%M} -lt 1000 || ${space%\%} -gt 80 ]]; then
+                echo "$mount"
+        fi
+done <<<$filteredfile
+
+
+
+
+[9]
+#!/bin/bash
+
+find_dupe() {
+        directory="$1"
+        checksums=()
+
+        while read -r file; do
+                checksum=$(md5sum "$file" | awk '{print $1}')
+
+                if [[ "$checksums[@]" =~ "$checksum" ]]; then
+                        echo "Duplicate file: $file"
+                else
+                        checksums+=("$checksum")
+                fi
+        done < <(find "$directory" -type f)
+}
+
+if [[ -z "$1" ]]; then
+        echo "Usage: $0 <directory>"
+        exit 1
+fi
+
+if [[ ! -d "$1" ]]; then
+        echo "No directory exists."
+        exit 1
+fi
+
+find_dupe "$1"
+
+
+
+[10]
+#!/bin/bash
+
+correctinput="last -s 2024-04-01 | sed 's/ \{2,\}/ /g' | cut -d ' ' -f 1 | sort | grep -Ev '^$' | uniq -c | sort -nr "
+
+eval "$correctinput" | while read -r count user; do
+    echo "$count $user"
+done
