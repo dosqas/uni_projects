@@ -1,0 +1,2483 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="14.30" multi-file="no" uid="simp977c038901a84363986f1a8c6a9de099" creation-date="04/16/2024 13:53:50">
+  <meta>
+    <name>a6-7</name>
+    <authors>Soptelea Sebastian</authors>
+    <description />
+  </meta>
+  <counters models="2">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="dependency" type="Dependency" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="relationship" type="Association" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>17</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>5</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>23</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-d52e452090ca46f4b82789a57de67f1f" name="" task-id-sequence="0">
+    <working-schedule uid="ws-9df986e0171d4059880edf04b8a520d7" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Soptelea</first-name>
+        <last-name>Sebastian</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-9201afafb754437fb68f69d65d0d538f" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Soptelea</first-name>
+        <last-name>Sebastian</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-b97b3a3fcbce430c95386462af893e38" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="istream" name="istream" />
+        <type id="std::string" name="std::string" />
+        <type id="&amp;Dog" name="&amp;Dog" />
+        <type id="&amp;String" name="&amp;String" />
+        <type id="SQLWCHAR" name="SQLWCHAR" />
+        <type id="Class:e8c7faf462774f08974f28cd987e64b4" name="Service" class-ref="e8c7faf462774f08974f28cd987e64b4" />
+        <type id="std::wstring" name="std::wstring" />
+        <type id="vector&lt;class Dog&gt;" name="vector&lt;class Dog&gt;" />
+        <type id="SQLHANDLE" name="SQLHANDLE" />
+        <type id="Class:c5c1f4dcfa0e448ab08fc62b2588dd33" name="MemRepository" class-ref="c5c1f4dcfa0e448ab08fc62b2588dd33" />
+        <type id="Cpp.int" tid="s-integer32" name="int" />
+        <type id="Class:02a87c81c48f4c609bd7a169e9987b25" name="UI" class-ref="02a87c81c48f4c609bd7a169e9987b25" />
+        <type id="Class:7cc6844794e8496e9aa08728f2e7c322" name="TrueDBRepository" class-ref="7cc6844794e8496e9aa08728f2e7c322" />
+        <type id="Class:f400c99c1ac044dda8501e27aa1ae46a" name="UIValidator" class-ref="f400c99c1ac044dda8501e27aa1ae46a" />
+        <type id="Class:326f0f246a714617b7b58ee22a0c50ed" name="Dog" class-ref="326f0f246a714617b7b58ee22a0c50ed" />
+        <type id="Class:24afb05a1459435d9fcfe1c72a58b8ec" name="Main" class-ref="24afb05a1459435d9fcfe1c72a58b8ec" />
+        <type id="ostream" name="ostream" />
+        <type id="Cpp.bool" tid="boolean" name="bool" />
+        <type id="Cpp.string" tid="string" name="string" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="11474541db90472587dccb97d077aced" cid="PROP002" type="property" owner="433fcf1ed50440db8d63374e6c4bd08d" creator="" creation-date="04/16/2024 14:30:34" visibility="private">
+      <structural-feature type="Dog" type-id="Class:326f0f246a714617b7b58ee22a0c50ed" />
+    </item>
+    <item id="38d1f6731d2243aaac55b399a2370b8d" cid="PROP003" type="property" owner="34e809a0abf840d3883f686dcc8cf591" creator="" creation-date="04/16/2024 14:31:16" visibility="private">
+      <structural-feature type="Main" type-id="Class:24afb05a1459435d9fcfe1c72a58b8ec" />
+      <property aggregation="composite" />
+    </item>
+    <item id="e27f9dd942974b10b7f8b32bec418121" cid="PROP001" type="property" owner="433fcf1ed50440db8d63374e6c4bd08d" creator="" creation-date="04/16/2024 14:30:34" visibility="private">
+      <structural-feature type="MemRepository" type-id="Class:c5c1f4dcfa0e448ab08fc62b2588dd33" />
+      <property aggregation="composite" />
+    </item>
+    <item id="62804c97ea1749b0ab7241dfb46c12a9" cid="PROP004" type="property" owner="34e809a0abf840d3883f686dcc8cf591" creator="" creation-date="04/16/2024 14:31:16" visibility="private">
+      <structural-feature type="UI" type-id="Class:02a87c81c48f4c609bd7a169e9987b25" />
+    </item>
+  </items>
+  <models>
+    <model id="pb3a60f5794b54abfa6d853db158951db_753927057" name="Model1" namespace="" order-index="1" expanded="true">
+      <meta>
+        <authors>
+          <author>Soptelea Sebastian</author>
+        </authors>
+        <description />
+        <creation-date>04/16/2024 13:53:51</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="71c9599145494e2b962e800727e80dfa" cid="PKG001" type="package" creator="" creation-date="04/16/2024 13:54:39" visibility="undefined">
+          <tagged-values>
+            <tagged-value id="tv61db66a21e864e7da6b6b4474b20aa1b" name="namespace" type="text" multiple="false" hidden="false" value="" />
+            <tagged-value id="tv7b610d5961ba4c388a0fc734e08725c2" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+        </item>
+      </abstract-items>
+      <sub-models>
+        <model id="p81c1f93a7d514523b0495635ac6dcb78_198747504" name="" namespace="" order-index="2" expanded="true">
+          <meta>
+            <authors>
+              <author>Soptelea Sebastian</author>
+            </authors>
+            <description />
+            <creation-date>04/16/2024 13:54:39</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tv11b35fa780b54fe7a4b975619d4a565c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+          <abstract-items>
+            <item id="cf8993575bd649bba503fc4b1000fc51" cid="C007" type="class" name="HTMLOutput" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv67961fa3846f4b18a887e7447e5a27ae" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv61226e688d1f482c86291faf5f801036" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="HTMLOutput" />
+                <tagged-value id="tv4a5afe8f08a64da7a27e4114b40514b4" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvc93bedfbb881402cb5777b0e8e90c5c2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tv1321133211014ce4a0f4a23c304c8407" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvaf88228fce3b44f083334e9f38ce5b53" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="12952" />
+                <tagged-value id="tv5be833b681674721b2d1bacd4b93f1e2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1048" />
+                <tagged-value id="tv6882ae32c15949b58aa1879762f75552" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tved64291b96384302a42b87a650cf3e1b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <operations>
+                <operation id="4fc8e733d1c5412cba2b0db50028ecf0" cid="OP021" veid="o50a822f731564fb4bb67cd392b44d3fd159" name="saveToFile" creation-date="04/16/2024 15:19:32" type="" type-id="" visibility="public" />
+                <operation id="91117e35c30447928a0dd8142b67c4b6" cid="OP022" veid="of9f117c4b8ce4751b64ddfdf8b28ef1e931" name="loadFromFile" creation-date="04/16/2024 15:19:49" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+              </operations>
+            </item>
+            <item id="02a87c81c48f4c609bd7a169e9987b25" cid="C013" type="class" name="UI" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv62af82239a29497895d6b2fe006e7951" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv3e24f7dc0a264af3802f7aa619e3a5a7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="UI" />
+                <tagged-value id="tv61f4d0c152a84eba836f09cac4b777a1" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv1bc048d2f5154394ab4fd74f2a5795fc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.h" />
+                <tagged-value id="tv540fb8a53c8b4ef297ae463ba0d1d3bf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv4758ada08fab4c9eb6883c0e7666e35f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="236" />
+                <tagged-value id="tv5e203a0b841847cd9144baf9f49f53da" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="370" />
+                <tagged-value id="tvdb0c4eba7b644936a535fc372930db9e" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="606" />
+                <tagged-value id="tv2212a95f578c4af0ab789a47423bc655" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:37:10" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="ad624f8c4cc5b4dd3b28a89460d4a44b4427" cid="PROP012" name="serv" creation-date="04/16/2024 13:54:39" property-ref="05aae32aa55a413b83070110403fb84c" />
+                <attribute id="a235c494da5794308b02b577413fdf548427" cid="PROP013" name="val" creation-date="04/16/2024 13:54:39" property-ref="ecf3e139e6184f529178658b4950f477" />
+                <attribute id="a2a954644b5ad457b8b0a68c17f952ed4428" cid="PROP014" name="save_mode" creation-date="04/16/2024 13:54:39" property-ref="7acafbd23dcf4e67af3030eab077c05d" />
+              </attributes>
+              <operations>
+                <operation id="oc327d6612a854151b4d54e259e16fd91430" cid="OP054" name="question" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv1aa5e1f6b7b1462d9dfee0878e15975e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="question" />
+                    <tagged-value id="tv5e03e988962641b28cc7366d1a14f3e4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tvb4fc60bf2a734545bb20b8c27f241a32" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tva58a174e9e614096962c97992392596c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="33" />
+                    <tagged-value id="tv373fbca5af954a7db4c988b47b73c375" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1087" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	int option;
+	while (1) {
+		system("cls");
+		cout &lt;&lt; "How should we save the adoption list?\n";
+		cout &lt;&lt; "|1| CSV\n";
+		cout &lt;&lt; "|2| HTML\n";
+		cout &lt;&lt; "|3| NO SAVING\n\n";
+
+		cout &lt;&lt; "Input: ";
+		try
+		{
+			cin &gt;&gt; option;
+			if (!this-&gt;val.save_menu_validator(option)) {
+				cin.clear();
+				char c;
+				while ((c = cin.get()) != '\n' &amp;&amp; c != EOF) {}
+				throw UIException("\nInvalid input! Must be between 1 and 3.");
+			}
+			break;
+		}
+		catch (UIException&amp; e)
+		{
+			cout &lt;&lt; e.what() &lt;&lt; endl;
+			Sleep(1500);
+		}
+	}
+
+	if (option == 3)
+	{
+		this-&gt;save_mode = "N";
+		cout &lt;&lt; "\nNo saving then...";
+
+		Sleep(1500);
+		return;
+	}
+
+	switch (option)
+	{
+		case 1:
+		{
+			this-&gt;save_mode = "C";
+			cout &lt;&lt; "\nAdoption list will be saved as CSV!";
+
+			this-&gt;serv.saveAdoptions(this-&gt;save_mode);
+			Sleep(1500);
+			break;
+		}
+		case 2:
+		{
+			this-&gt;save_mode = "H";
+			cout &lt;&lt; "\nAdoption list will be saved as HTML!";
+
+			this-&gt;serv.saveAdoptions(this-&gt;save_mode);
+			Sleep(1500);
+			break;
+		}
+	}
+
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o91bceb4980b14bd7b9341c0f0c1117e5430" cid="OP055" name="main_menu" creation-date="04/16/2024 13:54:39" type="int" type-id="Cpp.int" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv6d7a3f32ace54967af4ede5112f2c657" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="main_menu" />
+                    <tagged-value id="tv6b8398a4d923474099b428c0eb6d5256" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv78039f91f00f4b4c9832568d404acaf4" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv2163f6b1abee4e1398226e815a13a809" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1124" />
+                    <tagged-value id="tv2f386f0964c54733bede83256aeb0b86" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="794" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	int mode;
+
+	system("cls");
+	cout &lt;&lt; "   [[KEEP CALM AND ADOPT A PET]]\n\n";
+	cout &lt;&lt; "CHOOSE USER OR SHUT DOWN SESSION:\n";
+	cout &lt;&lt; "|1| admin\n";
+	cout &lt;&lt; "|2| user\n";
+	cout &lt;&lt; "|3| SHUT DOWN\n\n";
+
+	cout &lt;&lt; "Input: ";
+	try
+	{
+		cin &gt;&gt; mode;
+		if (!this-&gt;val.main_menu_validator(mode))
+			throw UIException("\n\nInvalid input! Must be between 1 and 3.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return -1;
+	}
+
+	switch (mode)
+	{
+	case 1:
+	{
+		admin_menu();
+		break;
+	}
+	case 2:
+	{
+		user_menu();
+		break;
+	}
+	case 3:
+	{
+		system("cls");
+		cout&lt;&lt; "SHUTTING DOWN. ";
+		Sleep(750);
+		cout &lt;&lt; ". ";
+		Sleep(750);
+		cout &lt;&lt; ".";
+
+		Sleep(1500);
+		return 0;
+		break;
+
+	}
+	}
+	return -1;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o2f6006bb411e4577b84ff4232f326e8b430" cid="OP056" name="admin_menu" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv80e7b41a42c84633bd4bfc7afe8a8bf3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="admin_menu" />
+                    <tagged-value id="tv1147954d149b4d6ca2b473e7a6feedef" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv4ec24dd8d2404e3797aaac5fc392c302" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tve8b7287d7a0e49a3a4219b3933675c99" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1930" />
+                    <tagged-value id="tvb5b387bb7d384154b64c800fd5244f6f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="996" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	while (1)
+	{
+		int option;
+
+		system("cls");
+		cout &lt;&lt; "   [[USER: admin]]\n";
+		cout &lt;&lt; "   [MAIN MENU]\n\n";
+		cout &lt;&lt; "CHOOSE OPTION:\n";
+		cout &lt;&lt; "|1| ADD DOG\n";
+		cout &lt;&lt; "|2| DELETE DOG\n";
+		cout &lt;&lt; "|3| UPDATE DOG\n";
+		cout &lt;&lt; "|4| SEE ALL DOGS\n";
+		cout &lt;&lt; "|5| LOG OUT\n\n";
+
+		cout &lt;&lt; "Input: ";
+		try
+		{
+			cin &gt;&gt; option;
+			if (!this-&gt;val.admin_menu_validator(option))
+				throw UIException("\n\nInvalid input! Must be between 1 and 5.");
+		}
+		catch (UIException&amp; e)
+		{
+			cout &lt;&lt; e.what() &lt;&lt; endl;
+			Sleep(1500);
+		}
+
+		switch (option)
+		{
+		case 1:
+		{
+			adm_op1();
+			break;
+		}
+		case 2:
+		{
+			adm_op2();
+			break;
+		}
+		case 3:
+		{
+			adm_op3();
+			break;
+		}
+		case 4:
+		{
+			adm_op4();
+			break;
+		}
+		case 5:
+		{
+			system("cls");
+			cout &lt;&lt; "LOGGING OUT. ";
+			Sleep(750);
+			cout &lt;&lt; ". ";
+			Sleep(750);
+			cout &lt;&lt; ".";
+
+			Sleep(1500);
+			return;
+			break;
+		}
+		}
+
+	}
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o9ee26451a7a54b8c8aba2a01e732c3b9430" cid="OP057" name="adm_op1" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv2f1aac8d59914dbc8ed1f9c2fecb484c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="adm_op1" />
+                    <tagged-value id="tv95fe91fd923f475bb83e4dd861bec024" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv437fb50a5784463e9cb74a6af427a67e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvc870be8951c846edaf7471b8aeba84a2" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2934" />
+                    <tagged-value id="tve34468ec70704bd384c9b83e024c2148" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1397" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+	string breed, name, photograph;
+	int age;
+
+	cout &lt;&lt; "   [[USER: admin]]\n";
+	cout &lt;&lt; "   [ADD DOG]\n\n";
+	cout &lt;&lt; "PLEASE PROVIDE THE FOLLOWING INFORMATION:\n";
+	cout &lt;&lt; "Input breed: ";
+	cin &gt;&gt; breed;
+	cout &lt;&lt; "Input name: ";
+	cin &gt;&gt; name;
+	cout &lt;&lt; "Input age: ";
+	try {
+		cin &gt;&gt; age;
+		if (cin.fail()) {
+			cin.clear();
+			char c;
+			while ((c = cin.get()) != '\n' &amp;&amp; c != EOF) {}
+			throw UIException("\n\nInvalid input! Age must be an integer.");
+		}
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+	
+	try{
+		if (!this-&gt;val.add_menu_validator2(age))
+			throw UIException("\n\nInvalid input! Age must be a positive integer.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+
+	cout &lt;&lt; "Input photograph link (just the part after https://kcaaap.com/dogs-photos/): ";
+	cin &gt;&gt; photograph;
+	try {
+		if (!serv.photoIsUnique(photograph))
+			throw UIException("\n\nInvalid input! Photograph link is not unique!");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+
+	bool returnValue = serv.adminAddService(breed, name, age, photograph);
+	if (returnValue)
+		cout &lt;&lt; "\nSuccessfully added the dog!";
+	else
+		cout &lt;&lt; "\nSomething went wrong while trying to add..";
+
+
+	Sleep(1500);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oc4142eb5cf60453abc2ab4cef785fcce430" cid="OP058" name="adm_op2" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv8818428abbc5474c932c3c81906697b8" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="adm_op2" />
+                    <tagged-value id="tv3f9978f4d97b47e38d144d5a63057898" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv39b10a6e5327408ca53b0f3325f0ca48" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tve30bf48efd29420c81dd3ebbd6c4c5b0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="4335" />
+                    <tagged-value id="tv9bb32a8f5b344b7b9c9159311ec600ed" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1196" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+	string photograph;
+
+	cout &lt;&lt; "   [[USER: admin]]\n";
+	cout &lt;&lt; "   [REMOVE DOG]\n\n";
+	cout &lt;&lt; "PLEASE PROVIDE THE FOLLOWING INFORMATION:\n";
+	cout &lt;&lt; "Input photograph link of the dog you wish deleted (just the part after https://kcaaap.com/dogs-photos/): ";
+	cin &gt;&gt; photograph;
+	bool res = serv.photoIsUnique(photograph);
+	try {
+		if (res)
+			throw UIException("\n\nInvalid input! Photograph link does not exist.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+	if (!serv.isAdopted(photograph))
+	{
+		cout &lt;&lt; "\nWait! This dog has not been adopted yet! Are you sure you want to remove it? Enter (y/n): ";
+		char answer;
+		cin &gt;&gt; answer;
+		if (answer != 'y' &amp;&amp; answer != 'n')
+		{
+			cout &lt;&lt; "\n\nInvalid input! Must be 'y' or 'n'.";
+			Sleep(1500);
+			return;
+		}
+		if (answer == 'n') {
+			cout &lt;&lt; "\n\nOperation cancelled.";
+			Sleep(1500);
+			return;
+		}
+	}
+	bool returnValue = serv.adminRemoveService(photograph);
+	if (returnValue)
+		cout &lt;&lt; "\nSuccessfully removed the dog!";
+	else
+		cout &lt;&lt; "\nSomething went wrong while trying to remove..";
+
+	Sleep(1500);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o141f0b487ab046f5af59c11463b8ce4a430" cid="OP059" name="adm_op3" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tve30a3fae309246079e68f3762876f41b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="adm_op3" />
+                    <tagged-value id="tvb1f564bde931476ba7a5fc736759e28c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv5bc3000fba9e4a81966104e664e1d45f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv7c87f80046b047a3901d1235e246b557" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="5535" />
+                    <tagged-value id="tvffbbb046284f4e45b0ee6d21b4c81e39" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1180" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+	string photograph, name, breed;
+	int age;
+
+	cout &lt;&lt; "   [[USER: admin]]\n";
+	cout &lt;&lt; "   [UPDATE DOG]\n\n";
+	cout &lt;&lt; "PLEASE PROVIDE THE FOLLOWING INFORMATION:\n";
+	cout &lt;&lt; "Input photograph link of the dog you wish to update (just the part after https://kcaaap.com/dogs-photos/): ";
+	cin &gt;&gt; photograph;
+	bool res = serv.photoIsUnique(photograph);
+	try {
+		if (res)
+			throw UIException("\n\nInvalid input! Photograph link does not exist.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+
+	cout &lt;&lt; "Input new name: ";
+	cin &gt;&gt; name;
+	cout &lt;&lt; "Input new breed: ";
+	cin &gt;&gt; breed;
+	cout &lt;&lt; "Input new age: ";
+	cin &gt;&gt; age;
+	try {
+		if (!val.add_menu_validator2(age))
+			throw UIException("\n\nInvalid input! Age must be a positive integer.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+
+	int returnValue = serv.adminUpdateService(photograph, name, breed, age);
+	if (returnValue)
+		cout &lt;&lt; "\nSuccessfully updated the dog!";
+	else
+		cout &lt;&lt; "\nSomething went wrong while trying to update..";
+
+	Sleep(1500);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o5bc95c65e3b84bd88598e0a112ff9706430" cid="OP060" name="adm_op4" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvfd61c1d04b054656a52dcfbf0934b97b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="adm_op4" />
+                    <tagged-value id="tvac50706948c94e73b85bbe3e72ddce12" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv8739f4bf7fc7465e88a4de0049696019" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv19d2f6c791f2449f9989b7da9070bd4d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="6719" />
+                    <tagged-value id="tvda6c98fa84a54688968c9752c6dd820d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="395" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+
+	cout &lt;&lt; "   [[USER: admin]]\n";
+	cout &lt;&lt; "   [SEE ALL DOGS]\n\n";
+	cout &lt;&lt; "ALL DOGS FOUND:\n";
+
+	vector&lt;class Dog&gt;&amp; dogs = serv.getServiceDogs();
+	int index = 1;
+	for_each(dogs.begin(), dogs.end(), [&amp;index](const Dog&amp; dog) {
+		cout &lt;&lt; '[' &lt;&lt; index++ &lt;&lt; ']' &lt;&lt; '\n' &lt;&lt; dog.dog_to_string();
+		});
+
+
+	cout &lt;&lt; "\nThat's all!";
+	Sleep(5000);
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4544e10bf1dc4e08a8eac8684c79495b430" cid="OP061" name="user_menu" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv51b32a7da7584ec99933d3a22c3f4e6e" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_menu" />
+                    <tagged-value id="tv3df3ec7954fb4c0c8853e64b1948eb6c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tvec9600e6b54441d1b87f392d628cf8d6" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv097d4da325ed44b29f582a5cb17c7826" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="7126" />
+                    <tagged-value id="tv2f25f335120549cda6ca71d437d60fa2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1321" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	while (1)
+	{
+		int option;
+
+		system("cls");
+		cout &lt;&lt; "   [[USER: user]]\n";
+		cout &lt;&lt; "   [MAIN MENU]\n\n";
+		cout &lt;&lt; "CHOOSE OPTION:\n";
+		cout &lt;&lt; "|1| SEE DOGS ONE BY ONE\n";
+		cout &lt;&lt; "|2| SEE ALL DOGS OF A GIVEN BREED YOUNGER THAN AN AGE\n";
+		cout &lt;&lt; "|3| SEE ADOPTION LIST\n";
+		cout &lt;&lt; "|4| SEE ADOPTION LIST USING CSV/HTML\n";
+		cout &lt;&lt; "|5| LOG OUT\n\n";
+
+		cout &lt;&lt; "Input: ";
+		try
+		{
+			cin &gt;&gt; option;
+			if (!this-&gt;val.user_menu_validator(option))
+				throw UIException("\n\nInvalid input! Must be between 1 and 5.");
+		}
+		catch (UIException&amp; e)
+		{
+			cout &lt;&lt; e.what() &lt;&lt; endl;
+			Sleep(1500);
+		}
+
+		switch (option)
+		{
+		case 1:
+		{
+			user_op1();
+			break;
+		}
+		case 2:
+		{
+			user_op2();
+			break;
+		}
+		case 3:
+		{
+			user_op3();
+			break;
+		}
+		case 4:
+		{
+			try {
+				if (!this-&gt;val.user_menu_validator2(this-&gt;save_mode))
+					throw UIException("\n\nInvalid choice! No saving mode selected.");
+			}
+			catch (UIException&amp; e)
+			{
+				cout &lt;&lt; e.what() &lt;&lt; endl;
+				Sleep(1500);
+				break;
+			}
+			user_op4();
+			break;
+		}
+		case 5:
+		{
+			system("cls");
+			cout &lt;&lt; "LOGGING OUT. ";
+			Sleep(750);
+			cout &lt;&lt; ". ";
+			Sleep(750);
+			cout &lt;&lt; ".";
+
+			Sleep(1500);
+			return;
+			break;
+		}
+		}
+	}
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o956e387c7ac648a88ec3e9ee8f81cf34430" cid="OP062" name="user_op1" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvd449f2491cc14d1ea7bc390be921157b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_op1" />
+                    <tagged-value id="tv272b3aba8ee847b78dddc284148563d2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv23f2fc78393f4fe784091429f0a56878" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv4123885dbba643afa164b496ea813737" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="8455" />
+                    <tagged-value id="tv050e4590a7b849d88cb7760f6ba505fa" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1344" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	vector&lt;class Dog&gt;&amp; dogs = serv.getServiceDogs();
+	int i = 0, nr_of_adoptions = dogs.size(), count = 0;
+
+	nr_of_adoptions -= count_if(dogs.begin(), dogs.end(), [](const Dog&amp; dog) {
+		return dog.get_adopted();
+		});
+
+
+	while (1)
+	{
+		i = i % dogs.size();
+		count = count % nr_of_adoptions;
+		if (!dogs[i].get_adopted())
+		{
+			system("cls");
+
+			cout &lt;&lt; "   [[USER: user]]\n";
+			cout &lt;&lt; "   [SEE UNADOPTED DOGS]\n\n";
+			cout &lt;&lt; "DOG NO. " &lt;&lt; count + 1 &lt;&lt; '\n';
+
+			cout &lt;&lt; dogs[i].dog_to_string();
+			cout &lt;&lt; "\nIf you wish to exit seeing the dogs, type q.";
+			cout &lt;&lt; "\nDo you want to adopt this dog? Enter (y/n): ";
+			char answer;
+			cin &gt;&gt; answer;
+			try {
+				if (!this-&gt;val.user_opt1_validator(answer))
+					throw UIException("\n\nInvalid input! Must be 'y', 'n' or 'q.");
+			}
+			catch (UIException&amp; e)
+			{
+				cout &lt;&lt; e.what() &lt;&lt; endl;
+				Sleep(1500);
+				return;
+			}
+			if (answer == 'y')
+			{
+				dogs[i].set_adopted(true);
+				this-&gt;serv.saveToFileServ();
+				cout &lt;&lt; "\nSuccessfully adopted the dog!";
+				cout &lt;&lt; "\nGoing to next dog...";
+
+				nr_of_adoptions--;
+				Sleep(1500);
+			}
+			else if (answer == 'n')
+			{
+				cout &lt;&lt; "\nGoing to next dog...";
+				Sleep(1500);
+			}
+			else
+			{
+				break;
+			}
+			count++;
+		}
+		i++;
+	}
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o5336a8e317a94fd7853d6e114d536fcb430" cid="OP063" name="user_op2" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv0456525be5e14bb396133efa56310fdf" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_op2" />
+                    <tagged-value id="tv5aedc9f7eae54b76a9eb6ffa8a5bb4e8" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv4e5fe7def8424581934fdec24e5c51bf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv0b7c722f1d24404993a25e990c813a1c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="9803" />
+                    <tagged-value id="tv8ddc9a65e84e490aa444ed158db7f9ba" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1135" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+
+	cout &lt;&lt; "   [[USER: user]]\n";
+	cout &lt;&lt; "   [SEE DOGS OF A GIVEN BREED YOUNGER THAN AN AGE]\n\n";
+	cout &lt;&lt; "PLEASE PROVIDE THE FOLLOWING INFORMATION:\n";
+	string breed;
+	int age;
+
+	cout &lt;&lt; "Input breed: ";
+	getline(cin, breed);
+	cout &lt;&lt; "Input age: ";
+	cin &gt;&gt; age;
+	try {
+		if (!this-&gt;val.user_opt2_validator(age))
+			throw UIException("\n\nInvalid input! Age must be a non-zero, positive integer.");
+	}
+	catch (UIException&amp; e)
+	{
+		cout &lt;&lt; e.what() &lt;&lt; endl;
+		Sleep(1500);
+		return;
+	}
+
+	vector&lt;class Dog&gt;&amp; dogs = serv.getServiceDogs();
+	int count = 0;
+
+	cout &lt;&lt; "\nALL DOGS FOUND:\n";
+	if (breed == "")
+	{
+		for (int i = 0; i &lt; dogs.size(); i++)
+		{
+			if (dogs[i].get_age() &lt; age)
+			{
+				count++;
+				cout &lt;&lt; '[' &lt;&lt; count &lt;&lt; ']' &lt;&lt; '\n' &lt;&lt; dogs[i].dog_to_string();
+			}
+		}
+	}
+	else
+		for (int i = 0; i &lt; dogs.size(); i++)
+		{
+			if (dogs[i].get_breed() == breed &amp;&amp; dogs[i].get_age() &lt; age)
+			{
+				count++;
+				cout &lt;&lt; '[' &lt;&lt; count &lt;&lt; ']' &lt;&lt; '\n' &lt;&lt; dogs[i].dog_to_string();
+			}
+		}
+
+	cout &lt;&lt; "\nThat's all!";
+	Sleep(5000);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o0d2d5b459e394164afcd26f5c512d062430" cid="OP064" name="user_op3" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvbf6d16072c0a4671a9b7134bea4f0ead" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_op3" />
+                    <tagged-value id="tve3e01bfa97034b0ca9f9f04979827824" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tv990cf5af04f249b58438c658e1e8f659" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv25e1a6f3a6014716b522a3be05fdea63" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="10942" />
+                    <tagged-value id="tv909631806f064ea0b6a579162217f10f" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="442" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+
+	cout &lt;&lt; "   [[USER: user]]\n";
+	cout &lt;&lt; "   [ADOPTION LIST]\n\n";
+	cout &lt;&lt; "ALL ADOPTED DOGS:\n";
+
+	vector&lt;class Dog&gt;&amp; dogs = serv.getServiceDogs();
+	int count = 0;
+	for_each(dogs.begin(), dogs.end(), [&amp;count](const Dog&amp; dog) {
+		if (dog.get_adopted()) {
+			cout &lt;&lt; '[' &lt;&lt; ++count &lt;&lt; ']' &lt;&lt; '\n' &lt;&lt; dog.dog_to_string();
+		}
+		});
+
+
+	cout &lt;&lt; "\nThat's all!";
+	Sleep(5000);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o83cd1345bc474e5fa953d7df5d144bb4430" cid="OP065" name="user_op4" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvdafb18ebbd6d45459435c1f6dff06fd4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_op4" />
+                    <tagged-value id="tv528c756e36924bd38a8336a50514825b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.cpp" />
+                    <tagged-value id="tvcb41c27d72e14cbcb1b6299c01f7817f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv2dd5634c2ebe4e1f9dabe9f8b35fc530" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="11388" />
+                    <tagged-value id="tv1a57129497eb454584f098ae1aae375d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="451" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	system("cls");
+
+	cout &lt;&lt; "   [[USER: user]]\n";
+	cout &lt;&lt; "   [ADOPTION LIST]\n\n";
+
+	cout &lt;&lt; "All adopted dogs will be shown in the corresponding opened window.\n";
+	Sleep(1250);
+
+	if (this-&gt;save_mode == "H")
+	{
+		cout &lt;&lt; "\nOpening HTML file in browser...";
+	}
+	else
+	{
+		cout &lt;&lt; "\nOpening CSV file in NotePad...";
+	}
+
+	Sleep(1500);
+	this-&gt;serv.loadFromType(this-&gt;save_mode);
+	
+	Sleep(2000);
+	return;
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="7a145a15651a49f0ac7cc66bb1696c81" cid="PROP001" type="property" name="repo" owner="e8c7faf462774f08974f28cd987e64b4" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv8d8b6970d9cb41cf8568c00119c9a8c9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="repo" />
+                <tagged-value id="tv0688baba86494d81b3f7af484111d26e" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv2c59d8fa3dc546458ef1ac76124db0c4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\service.h" />
+                <tagged-value id="tvb4d36bcf37b746af88f7ff65ad409f54" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv5aec735d369745edb4441bb128af59d2" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="138" />
+                <tagged-value id="tv30fccc595838404faa6496193dc674e9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="43" />
+                <tagged-value id="tv9c5ef7fef9ec46ce89bb590447ca5234" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4537" />
+                <tagged-value id="tvedc049a3d8f74799aa2b2e53c74eaa60" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 16:46:57" />
+              </tagged-values>
+              <structural-feature type="TrueDBRepository" type-id="Class:7cc6844794e8496e9aa08728f2e7c322" />
+              <property default-value="TrueDBRepository()" />
+            </item>
+            <item id="7cc6844794e8496e9aa08728f2e7c322" cid="C005" type="class" name="TrueDBRepository" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvbf8733c8ea664aea85a07f93e448c2f0" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv0acfebf1c089411db6c1743ec24b16a3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="TrueDBRepository" />
+                <tagged-value id="tv6ddd68acd8f64a75aecc174ba900505c" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tve432d0500bf44ef79543b8a727134400" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tv0c3b5c7f8e294ff9997cf29a6b311dde" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv65eba492c5ce48caab985fb22b0ef1d7" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="6383" />
+                <tagged-value id="tv07cd8c5cf0a84f95a5cced1169420863" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="5624" />
+                <tagged-value id="tv34ff8a9eb0724c87a362c35efa2eb2b4" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tv63d86cc922564181b122b1d2c27d3218" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a9b0111787ce94460987b9d2761313dee417" cid="PROP002" name="connectionString" creation-date="04/16/2024 13:54:39" property-ref="624aa6e137044eb78a331ed9fac39e40" />
+                <attribute id="a5406ba3dcdae4a57a635e3a9eab42bf7417" cid="PROP003" name="connectionStringPtr" creation-date="04/16/2024 13:54:39" property-ref="92c5377e08164c12b496916c465fabee" />
+              </attributes>
+              <operations>
+                <operation id="o813cca02bec9416985ff59a56e6f75e0418" cid="OP009" name="TrueDBRepository" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv1a86f832e6104284b13d54cb10a4fb10" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="TrueDBRepository" />
+                    <tagged-value id="tvd986593fdb0d4fa0b4340c48eb5069bd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvb0db936e7f8a403698708841d1ae57ae" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv6648029540c84a16af450ccbe194eba5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="6656" />
+                    <tagged-value id="tv6a001c6ee4aa4dea95f3073c4d51b7b5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="225" />
+                  </tagged-values>
+                </operation>
+                <operation id="o50a822f731564fb4bb67cd392b44d3fd159" cid="OP021" name="saveToFile" creation-date="04/16/2024 15:19:32" type="" type-id="" visibility="public" />
+                <operation id="of9f117c4b8ce4751b64ddfdf8b28ef1e931" cid="OP022" name="loadFromFile" creation-date="04/16/2024 15:19:49" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+                <operation id="of9172ceaa4164e0e97df94eca12a0889418" cid="OP010" name="outputToCSV" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tve52cafc46bbe483b805ad204d146e541" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="outputToCSV" />
+                    <tagged-value id="tvc3947e2a3cc74c5b8c5b434bc30c1c9c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tv5bccb1c71ac847b0980183151dbad1c0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv27d5377f82b148f6a546dde892b390c1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14004" />
+                    <tagged-value id="tv0ba892a38caf47d09bda060a44488efc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="114" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	TrueDBRepository* repo = new CSVOutput();
+	repo-&gt;saveToFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o86378d8e4d4b4c47a32e6fd6d3e0466e418" cid="OP011" name="outputToHTML" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv48e6947ccf924d19b3f02cf475c72f8a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="outputToHTML" />
+                    <tagged-value id="tvefd48d3097e847cca019e3f62883ed32" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvfe3d8cd78e624c929e6dc2a6b9a7002e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv102ca080f10d4db5bd8e8309068325e0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14122" />
+                    <tagged-value id="tv1ecf4607d983485e8e179b64d9bc9ee4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="116" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	TrueDBRepository* repo = new HTMLOutput();
+	repo-&gt;saveToFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4d0bf2f999124831b9de3e49fa2fa170418" cid="OP012" name="loadFromCSV" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvabe4eda94763471ba2260a37d118822d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="loadFromCSV" />
+                    <tagged-value id="tvff2cdca7058f4744b1b317678aac64fd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tv8f76ed3e57fa4d46b8c4ca6105e90bb3" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv9cc8b22377b74c048d06e1ecd3347aad" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14242" />
+                    <tagged-value id="tvebb49b75715043c1b9d94bc496c0d7a6" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="109" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	CSVOutput* repo = new CSVOutput();
+	repo-&gt;loadFromFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o91e47d8e9c0e42d0b6547ab35a3827e5418" cid="OP013" name="loadFromHTML" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvd62ef8c7cb844553ac184b3164875c0c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="loadFromHTML" />
+                    <tagged-value id="tv33781b82aca64082935604ec9950ba11" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tv28e197e9d1594489b196b8de6de1fea0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvd479bb500f7549788afa90fa79aa112d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14355" />
+                    <tagged-value id="tva9c945812bfa485f8f72fe011f7b493a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="112" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	HTMLOutput* repo = new HTMLOutput();
+	repo-&gt;loadFromFile();
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="1db6df7e663845d0b547ae1993e687e3" cid="GNR004" type="generalization" creation-date="04/16/2024 13:54:39" from="cf8993575bd649bba503fc4b1000fc51" to="7cc6844794e8496e9aa08728f2e7c322" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv4330de8ebc46414b996df4a494d9bebd" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="cf511321bd0d4ebba53b1332f3a518bf" cid="PROP009" type="property" name="age" owner="326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv074e9129c62d410ca1ed2b985e00673f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="age" />
+                <tagged-value id="tv7b7f37e644194f9eb613e093d972f979" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv01d65d51f30142369ec48c56d1802263" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv94af26b0d9904a92a60fa885f0e07c79" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv50ffc1d58b3a45e394554a2b54123681" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="134" />
+                <tagged-value id="tv70accd82e089434580d179637c02fabd" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="8" />
+                <tagged-value id="tv093ca982de7946729aef93d1fa826f01" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tv0d8f566fbf064dddaf65d24b217496e1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <structural-feature type="int" type-id="Cpp.int" />
+            </item>
+            <item id="6ffa33ab6576472cb639cc94364aace8" cid="REL002" type="relationship" creation-date="04/16/2024 13:54:39" from="02a87c81c48f4c609bd7a169e9987b25" to="e8c7faf462774f08974f28cd987e64b4" visibility="package">
+              <tagged-values>
+                <tagged-value id="tv00589d6d1bde4b908acaca5f64939b1a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="02a87c81c48f4c609bd7a169e9987b25" to="e8c7faf462774f08974f28cd987e64b4" derived="false">
+                <start-role id="umlar-8bfd8b78-b722-4a8c-8576-e8e08792b448" name="" navigability="" association-type="composition" visibility="private" />
+                <end-role id="umlar-0ccfa844-e762-4e3d-961c-5f84dba0c4e2" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="7acafbd23dcf4e67af3030eab077c05d" cid="PROP014" type="property" name="save_mode" owner="02a87c81c48f4c609bd7a169e9987b25" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvbec7c8b449094fdbb6b825aca88f75f3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="save_mode" />
+                <tagged-value id="tv9016171e936d4f1cae0c4cc0ec46ecfc" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tva818f1c50271474b9e282aed8a8b3fd5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.h" />
+                <tagged-value id="tv5c4ec17be3dd4ccba480f3bc6acce2df" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvcfa2a6fc70334ee99c67da92fa5dc1fe" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="327" />
+                <tagged-value id="tvd11756ea062e4ca5909bff4321d351dd" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="17" />
+                <tagged-value id="tv3b06cb02637c4304978849c5f05bf5c1" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="606" />
+                <tagged-value id="tv252b40c6528a426f951dfe8b06809c0c" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:37:10" />
+              </tagged-values>
+              <structural-feature type="string" type-id="Cpp.string" />
+            </item>
+            <item id="ecf3e139e6184f529178658b4950f477" cid="PROP013" type="property" name="val" owner="02a87c81c48f4c609bd7a169e9987b25" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv7517e1f6efd24a4b90f451fe6aae86b9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="val" />
+                <tagged-value id="tvd812053acc044b799f7327009c45aa66" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvf47d9967497b47f1b21c6730e48c402e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.h" />
+                <tagged-value id="tv10325e5bad40401d8220fbf09a300d98" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvd5a7da7fee4b4361b882de44fe2933f2" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="291" />
+                <tagged-value id="tv9262fa5e43bb428ca7f079f7a25276ce" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="32" />
+                <tagged-value id="tv9c4be34d5bfe47218e757de77dad35a6" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="606" />
+                <tagged-value id="tve94b30197b3941348d580e233c768c31" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:37:10" />
+              </tagged-values>
+              <structural-feature type="UIValidator" type-id="Class:f400c99c1ac044dda8501e27aa1ae46a" />
+              <property default-value="UIValidator()" />
+            </item>
+            <item id="730d0490480349bc81425c3ef759f69f" cid="PROP007" type="property" name="name" owner="326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv3ddd85124e874339b294e4316ef20cbf" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="name" />
+                <tagged-value id="tv4323c3fb2806499794751fec3eb092f9" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv1a4dfa148f3545f9b06203939dc7b474" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv79c7201f2b40409f8c6a7f59d2b6613a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv14c3af4a5a214dc89e7ccb913c212e8f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="103" />
+                <tagged-value id="tvc86cb7d751d64c99b728afa3ac1f6a5e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="12" />
+                <tagged-value id="tv8fe57683a6684a388ec8bbf9b0d0c937" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tv62f6963b14bb40c8b9aa2f3576f31f3d" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <structural-feature type="string" type-id="Cpp.string" />
+            </item>
+            <item id="4b96206922854cd585dc3734082244fb" cid="REL001" type="relationship" creation-date="04/16/2024 13:54:39" from="e8c7faf462774f08974f28cd987e64b4" to="7cc6844794e8496e9aa08728f2e7c322" visibility="package">
+              <tagged-values>
+                <tagged-value id="tve809029c42a548cdbabb489aaa80b7a8" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="e8c7faf462774f08974f28cd987e64b4" to="7cc6844794e8496e9aa08728f2e7c322" derived="false">
+                <start-role id="umlar-6cff8b72-cd9a-46fa-8699-af3052167545" name="" navigability="" association-type="composition" visibility="private" />
+                <end-role id="umlar-7b70d2f4-7d68-40c2-996d-f1662c5029dc" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="78e239d01be84b67a218a1eaf2726611" cid="PROP011" type="property" name="adopted" owner="326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv17dcbf935adf4612b85df2152929f616" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="adopted" />
+                <tagged-value id="tv9fa189618ab945df97dc346400c43421" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvd3efd5859d8343628ae161eb440b53a6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv575ea76110334362bf35d83ba33b7a79" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv010e8e36def5437c8d4610f6776b68f8" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="166" />
+                <tagged-value id="tv8067b975ed694d45b57d344fd2d58047" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="13" />
+                <tagged-value id="tv58d22fc649d84f8bb5eeb0b2db0a0bd6" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tv4cb173094df94ae0810e467c5662a205" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <structural-feature type="bool" type-id="Cpp.bool" />
+            </item>
+            <item id="c219254c72c74ae98d407880c1a2d51c" cid="PROP016" type="property" name="adoptedDogs" owner="c5c1f4dcfa0e448ab08fc62b2588dd33" creator="" creation-date="04/16/2024 14:49:56" visibility="protected">
+              <structural-feature type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" />
+              <property default-value="vector&lt;class Dog&gt;" />
+            </item>
+            <item id="c309a3a87f914643b9ef03b7d454bb3f" cid="PROP010" type="property" name="photograph" owner="326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvc307ddf2ea744ff7b59948b2a106163b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="photograph" />
+                <tagged-value id="tv98e3e669438f48d9abbb482c8669b420" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv81a9a367e9df46a2a7e0c98cbfd03d2d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv2236ea82f71b49e7b2327aa6a922331d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv27c928e87f754265849aa9c6997cff41" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="145" />
+                <tagged-value id="tva2530bee0fcc4628b642e50267595b5a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="18" />
+                <tagged-value id="tve038cac747be433182f0346deee8d513" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tvfdf3b340eda742919f94c764769203e5" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <structural-feature type="string" type-id="Cpp.string" />
+            </item>
+            <item id="05aae32aa55a413b83070110403fb84c" cid="PROP012" type="property" name="serv" owner="02a87c81c48f4c609bd7a169e9987b25" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvea1e93c30fa34cecb6ffa0b783dd66bc" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="serv" />
+                <tagged-value id="tv0135e00cdbbe43518ae68d37a3f05c8d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvf778e19bee4e49d7a6420e93c307f8ef" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\ui.h" />
+                <tagged-value id="tva29332161c6e4b8aa5d4951045cfa963" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv0ff9fa8f54b64855bdf32cb1cffe1766" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="262" />
+                <tagged-value id="tve60ad558414b4b218892c9fe7d35710e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="25" />
+                <tagged-value id="tv807be6ede1d24586ab9038c79a7e36dc" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="606" />
+                <tagged-value id="tva75836a615e6477ca456f84624f58b1f" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:37:10" />
+              </tagged-values>
+              <structural-feature type="Service" type-id="Class:e8c7faf462774f08974f28cd987e64b4" />
+              <property default-value="Service()" />
+            </item>
+            <item id="f400c99c1ac044dda8501e27aa1ae46a" cid="C012" type="class" name="UIValidator" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvb18d340d0c7b4834b93c06609446ad53" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv7ac61bf21e114c5dabf4d59cd112b015" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="UIValidator" />
+                <tagged-value id="tvd0d66b333f89476d80f8540dcfb5d1a2" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvbaf371e501f84a9e916da6eb3aab24c0" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                <tagged-value id="tvb3a7cd551c55401298459c489b6cfbcd" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvd16785f7d5b143758d50b6dd4f275494" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="57" />
+                <tagged-value id="tvf9e1eda451be4726b36a13d5aeb98e39" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="961" />
+                <tagged-value id="tv5d70a3c586544b16a04a02c9c51d76ad" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1018" />
+                <tagged-value id="tvcf0947e10f764b44ab41dedc03920c5b" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:44:01" />
+              </tagged-values>
+              <operations>
+                <operation id="o842e5197c63046f590aa37adc12e2966425" cid="OP034" name="main_menu_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p151f52b6cfcd43e5b7056d3a1a6e059b" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv54ca8d067654446d812b9811d2b01ed3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="main_menu_validator" />
+                    <tagged-value id="tv18d717f728c04f088eacb056953dbf2e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tv3fcc65823e8b4a659bf891424bf93190" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv6cd2d6423d6b4727898df3830899a99b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="89" />
+                    <tagged-value id="tv140830c939ee436a9d943ee6ec7b3c29" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="113" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 1 || input &gt; 3) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="ofd5acfa5a4c14ec3b69ebbe4d2317e0a426" cid="OP035" name="save_menu_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pdcafc349b6cd4a6ca1327db7d7c7d290" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv739ebad5d03645cc940a410c2c5b4e07" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="save_menu_validator" />
+                    <tagged-value id="tva8c814c95ec4435ebb6fb4e115e702ca" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tvf9cef179eeb242e2b98edc83c9bdd46c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvc404bc80c7d04862a5e27d187c9cbf61" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="205" />
+                    <tagged-value id="tv91ae18dccc8e4e338f5cae4e2c1d2844" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="113" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 1 || input &gt; 3) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oa8fb8b4dc2424809b42604d342cef49b426" cid="OP036" name="admin_menu_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p40bce65d021c42689a410220915e9ff9" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvebe57c8686cc4f3c91c8d3221cdc61f6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="admin_menu_validator" />
+                    <tagged-value id="tv1779664433fc42e5a9ddb46301cf2cdc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tv239c1993c2384e9298ddf6148e7adba2" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv09145548224c46b79393bff3fa6db942" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="321" />
+                    <tagged-value id="tv7cb81441418e43e5815426d2606939f3" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="114" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 1 || input &gt; 5) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o68af746d07a44123a0f65660e97a22e9426" cid="OP037" name="add_menu_validator2" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pb5c5967d2f36443c96c2709baea3b257" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv8c3cd78d87224ede916c11d15055b3fe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="add_menu_validator2" />
+                    <tagged-value id="tvb4e324b3c69847de9189d66e3038770e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tvb78fa7197c434dc0bdd395552fd83faf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv0a0a24032f214973863051e7abb20dba" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="438" />
+                    <tagged-value id="tv3251a5607df54b4aabc4dcc06cb44b05" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="100" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 0) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o5db2013bb91c4e1aa0cfbe19091ceed3426" cid="OP038" name="user_menu_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p705ff392a7c9440887dabddfa60047f5" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tva48196c3c51d4db18e6fb24437fcf600" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_menu_validator" />
+                    <tagged-value id="tvedda71e2c2c549e1b30daf6c4fad50a5" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tv7ad350a626eb4dbfb368ed48b3d86456" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvf585bed687ab4c6e932019ffef6812a9" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="541" />
+                    <tagged-value id="tv8ea76976bd8b4f68a3c9f5549c41034b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="113" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 1 || input &gt; 5) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oc3381226bdc34c6db4e07d4e63fda57e426" cid="OP039" name="user_menu_validator2" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p4ab25bbfd82743bda0e3648bd6468426" name="save_mode" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvde81f80600974d6c89911504659439fb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_menu_validator2" />
+                    <tagged-value id="tv04e86e1f7a8b47eaa0cb08dc06913a4d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tvd3938c4872dc4a04bd45e94847dc4b8b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv601acd2f9ca94e4083391e20ac804d3c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="657" />
+                    <tagged-value id="tv0c7bc10e19d743c3ba15b4a0dff8ae7d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="115" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (save_mode == "N") {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o7a38da7fddfe46519d2f3eebdd4f3762426" cid="OP040" name="user_opt1_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pc76ff5ef8f554fbc9abb88d83725615c" name="input" type="Char" type-id="Uml.Char" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvd39defd25acd4d71ac52cbfc5efbaf0d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_opt1_validator" />
+                    <tagged-value id="tv0d66036d4c604a36b8d1be2c8e7155c4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tv64d28564ba96498abfc6252cfb1859ff" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv3250fa80b27443d8bf5aaa9859e9d15d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="775" />
+                    <tagged-value id="tva95f11a94bde4dfab88bcbedea43d293" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="136" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input != 'y' &amp;&amp; input != 'n' &amp;&amp; input != 'q') {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o953e9eb2e56648e0b98b0375612303d9426" cid="OP041" name="user_opt2_validator" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p2f061e1b293648d69e8de28849765f5f" name="input" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv7ed9d2da83e644a9a64e9d8c49a88821" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="user_opt2_validator" />
+                    <tagged-value id="tv571bfdb3e77d43699e178a368a1698be" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\validator.h" />
+                    <tagged-value id="tvd29cb3a9a06448d8ac0fa2b41371cc34" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv7396f2258f164f919d6bbc1ce05260a4" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="914" />
+                    <tagged-value id="tvb5ceb633d88748c9a92510dff3ea9cbb" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="100" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+		if (input &lt; 1) {
+			return false;
+		}
+		return true;
+	</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="24afb05a1459435d9fcfe1c72a58b8ec" cid="C003" type="class" name="Main" creation-date="04/16/2024 13:54:39" visibility="undefined">
+              <stereotypes>
+                <stereotype name="main" />
+              </stereotypes>
+              <stereotype-instances>
+                <stereotype id="24afb05a1459435d9fcfe1c72a58b8ec_main_c" type="main" creation-date="04/16/2024 13:54:39" ref="" />
+              </stereotype-instances>
+              <operations>
+                <operation id="o431459e55d1e48bdbb65521052bada42413" cid="OP004" name="&lt;&lt;" creation-date="04/16/2024 13:54:39" type="ostream" type-id="ostream" visibility="public">
+                  <parameters>
+                    <parameter id="pa5c5055672824395b2ca82f7a355a9f0" name="os" type="ostream" type-id="ostream" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="p0f9812f484c142819f56586fab674bc7" name="dog" type="Dog" type-id="Class:326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>operator</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvec3149f6768741f9af363ce0c46f3223" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="&lt;&lt;" />
+                    <tagged-value id="tv9b21f54f56504ff5a78cf0eaf495d413" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvea1229124fa448508daf4b5b80f2b5fb" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tveee5d991705d407793456a36d67feece" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2676" />
+                    <tagged-value id="tve3d8ff690381419090179b8138f0dbf5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="249" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	os &lt;&lt; dog.get_name() &lt;&lt; ";" &lt;&lt; dog.get_breed() &lt;&lt; ";" &lt;&lt; dog.get_age() &lt;&lt; ";" &lt;&lt; dog.get_photograph() &lt;&lt; ";";
+	if (dog.get_adopted())
+		os &lt;&lt; "T\n";
+	else
+		os &lt;&lt; "F\n";
+	return os;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oa4cc2be608c745dbaeb783c5358fb386415" cid="OP005" name="&gt;&gt;" creation-date="04/16/2024 13:54:39" type="istream" type-id="istream" visibility="public">
+                  <parameters>
+                    <parameter id="pba4102356fa143f3a22cd947ae1e814e" name="is" type="istream" type-id="istream" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="pc7ce741e8e0e44499cc1fb74aa312bd1" name="dog" type="Dog" type-id="Class:326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>operator</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvd967ec4298c0422091c0533791276ec7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="&gt;&gt;" />
+                    <tagged-value id="tv7c8fb507872644b981815044e129cc39" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvce03dbbcf79348ea9ab61ed274379b7b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv1c6b0b07a7e74f4387bf74aeedafdb32" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="2929" />
+                    <tagged-value id="tv9b9540c054e7448aa2526cae355b69d5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="390" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	string name, breed, age, photograph, adopted;
+	getline(is, name, ';');
+	getline(is, breed, ';');
+	getline(is, age, ';');
+	getline(is, photograph, ';');
+	getline(is, adopted);
+	dog.set_name(name);
+	dog.set_breed(breed);
+	dog.set_age(stoi(age));
+	dog.set_photograph(photograph);
+	dog.set_adopted(adopted == "T");
+	return is;
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="off9ae615d28f49a5a5167fcf527b62df416" cid="OP007" name="ConvertToWideString" creation-date="04/16/2024 13:54:39" type="std::wstring" type-id="std::wstring" visibility="public">
+                  <parameters>
+                    <parameter id="pfc4b4c58f9784befb92966e2db1dca0c" name="narrowString" type="std::string" type-id="std::string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv45a4e1fa625f45c0a577650a3853d355" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ConvertToWideString" />
+                    <tagged-value id="tv936b132f88fe4f9b8b8ce64d2dd41156" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tv2638ab0488e64a1eaa053665ee59df57" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv563da74fa0af42d8a40ac1b909174f27" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="5516" />
+                    <tagged-value id="tvf8ddfdba71bb46df9ab61293a2e3cf07" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="395" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	                                      
+	std::locale utf8Locale(std::locale(), new std::codecvt_utf8&lt;wchar_t&gt;());
+
+	                                          
+	std::wstring_convert&lt;std::codecvt_utf8&lt;wchar_t&gt;&gt; converter;
+
+	                                           
+	return converter.from_bytes(narrowString);
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oec7e65492ffe4721825c8d56db718ce0416" cid="OP008" name="PrintSQLError" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pac2b676a360c472db3ff8f7dfa86d984" name="hHandle" type="SQLHANDLE" type-id="SQLHANDLE" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv91a8c24e8d084b42958b7de55519a5f3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="PrintSQLError" />
+                    <tagged-value id="tv65b986be273c4d26935762c24737ad57" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvc2a1f9abb07349a08d1f86a407ddc842" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvc58215f51d25450399a083ccc5aa1dca" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="5915" />
+                    <tagged-value id="tvea95618e70d24d61b2d9eb7f27a2f5d9" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="462" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	SQLWCHAR sqlState[6];
+	SQLINTEGER nativeError;
+	SQLWCHAR errMsg[SQL_MAX_MESSAGE_LENGTH];
+	SQLSMALLINT errMsgLength;
+
+	                                       
+	SQLRETURN rc;
+	SQLSMALLINT i = 1;
+	while ((rc = SQLGetDiagRec(SQL_HANDLE_STMT, hHandle, i, sqlState, &amp;nativeError,
+		errMsg, sizeof(errMsg), &amp;errMsgLength)) != SQL_NO_DATA) {
+		std::wcerr &lt;&lt; L"SQL Error: " &lt;&lt; errMsg &lt;&lt; std::endl;
+		i++;
+	}
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4bcb88c7809848da986272657efcaf44432" cid="OP066" name="main" creation-date="04/16/2024 13:54:39" type="int" type-id="Cpp.int" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv16a6dcc6cbb144a2a019f4881f6fbb13" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="main" />
+                    <tagged-value id="tv15d5f3bf14d640cab20f0da3f254821d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\main.cpp" />
+                    <tagged-value id="tv858b5382728c4c478b52a373e86287ee" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv9f7acbe14475439b9e5744daa3fe43f5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="19" />
+                    <tagged-value id="tv25bc8c022a874b75af9d8efe6cf3ed5d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="345" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+    {
+        cout &lt;&lt; "© dosqasoft 2024\n";
+        cout &lt;&lt; "BOOTING UP. ";
+        Sleep(750);
+        cout &lt;&lt; ". ";
+        Sleep(750);
+        cout &lt;&lt; ".";
+        Sleep(1250);
+        UI ui = UI();
+
+        ui.question();
+        while (ui.main_menu() != 0) {}
+    }
+
+    _CrtDumpMemoryLeaks();
+    return 0;
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="624aa6e137044eb78a331ed9fac39e40" cid="PROP002" type="property" name="connectionString" owner="7cc6844794e8496e9aa08728f2e7c322" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvca743cf8a337426187460f7667999473" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="connectionString" />
+                <tagged-value id="tv5952cbc4bedb4f3185de90d920a6065d" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv82086766be554c938438cc993e81d0a7" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tva58d5f9b78174dcca70175b3d66ded4b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv47d3bbf83cd244fd828b12e2eef3b722" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="6444" />
+                <tagged-value id="tvf72ebe6f77d14c6b9d471d98e34ffa74" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="54" />
+                <tagged-value id="tva54a523f663f425ca8c71e1785b1b89a" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tv51e8ec7b278e4b2c9e954ff5567f4118" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <structural-feature type="std::wstring" type-id="std::wstring" />
+              <property default-value="L&quot;DRIVER={SQL Server}" />
+            </item>
+            <item id="92c5377e08164c12b496916c465fabee" cid="PROP003" type="property" name="connectionStringPtr" owner="7cc6844794e8496e9aa08728f2e7c322" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvdde460140665490b9f25d41aa4aa1639" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="connectionStringPtr" />
+                <tagged-value id="tv2cbdeeed251c481681c1efa686433b7e" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvf65f21a149e14cf281267c1b2fc1265d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tv1ecea11b28274cab87b8a78276a60129" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv752bdb259ad64bc9beff3a297fd7598c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="6562" />
+                <tagged-value id="tvc0b0b1027f4e4dbc93df4999cb78ada2" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="80" />
+                <tagged-value id="tve511c957689c40c6a0e5cc3fb4c2ce00" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tv06039dcce5944a58b0e2901719af1bc2" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <structural-feature type="SQLWCHAR" type-id="SQLWCHAR" />
+              <property default-value="const_cast&lt;SQLWCHAR*&gt;(connectionString.c_str())" />
+            </item>
+            <item id="e8c7faf462774f08974f28cd987e64b4" cid="C001" type="class" name="Service" creation-date="04/16/2024 13:54:39" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tvb92e9a85d3ad4b7ba34b0844fffd991e" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvc024f5dc1a9449309e6fe036a8e04b59" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Service" />
+                <tagged-value id="tvfddd923d1ce244a8a61b53f062c52850" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvc1b816e4e49045eb8261fdbc5c5a6db2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\service.h" />
+                <tagged-value id="tv4db0563484de44b1a5f9cb01ff4b72d9" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv3f76bb5d83804d4daf17379bc8a8ba16" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="106" />
+                <tagged-value id="tva42fc56865924ac38151bef837018577" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="4431" />
+                <tagged-value id="tv945b00bdc7f349fd802cda7c911f1de3" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="4537" />
+                <tagged-value id="tv3d64a00e56e04174a32bdd7811a63cd1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 16:46:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a6c2e3962df094ac2b60d4d7441f5ad24398" cid="PROP001" name="repo" creation-date="04/16/2024 13:54:39" property-ref="7a145a15651a49f0ac7cc66bb1696c81" />
+              </attributes>
+              <operations>
+                <operation id="oa9774a489d444076b84ad259333d5cbb404" cid="OP002" name="Service" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <stereotypes>
+                    <stereotype>destroy</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tve9a19d7381ff4f27b85e504eb66551bf" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Service" />
+                    <tagged-value id="tv621b06a2454642cf90f517c493fd4794" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\service.h" />
+                    <tagged-value id="tvbb9a72db8b8f4d1cb36d5e8b392d739d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tveeb6271163a84d25a2e37f5c17ef37bd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="213" />
+                    <tagged-value id="tv00709a2313dd4e0082a6ce36d0a3029b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="19" />
+                  </tagged-values>
+                </operation>
+                <operation id="o0fb814b2076341f582ed1e868ea47243324" cid="OP003" name="getServiceDogs" creation-date="04/16/2024 14:41:16" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+                <operation id="of648e40cb96a47d6911efbbb4b5d463f81" cid="OP001" name="photoIsUnique" creation-date="04/16/2024 14:22:45" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p9a983d4a6ac84edcb8843659aaf9b6b0" name="photo" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:45:29" />
+                  </parameters>
+                </operation>
+                <operation id="o2aa1662bec5e4872bed8e4c9830424c9604" cid="OP002" name="adminAddService" creation-date="04/16/2024 14:40:56" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p546b865976e74eceb509d12ac14744de" name="name" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:44:48" />
+                    <parameter id="p689f2f06fd6a444f95cdff17bcd22501" name="breed" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:44:48" />
+                    <parameter id="p8daf7a7f40644452903e12a8c904234c" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 14:44:48" />
+                    <parameter id="p017722ee43d342deafde740dc19e997d" name="photograph" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:44:48" />
+                  </parameters>
+                </operation>
+                <operation id="o31394b6b742443638472ca3ef9fd6d69586" cid="OP004" name="adminRemoveService" creation-date="04/16/2024 14:46:20" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pa173c43de83b4a83b4bd32d475fb8b68" name="photo" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:46:51" />
+                  </parameters>
+                </operation>
+                <operation id="o93d411e9fc9f4eb0ac60f157d93f1e03120" cid="OP005" name="isAdopted" creation-date="04/16/2024 14:46:58" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pc835701ef5a9429baca4f8e915ff0a13" name="photo" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:47:13" />
+                  </parameters>
+                </operation>
+                <operation id="o55a1f06ea96c4dddbe2a2db006b46bd0388" cid="OP006" name="adminUpdateService" creation-date="04/16/2024 14:47:13" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pd0c8a57e9698470aa0a079677eb5ba3a" name="name" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:47:47" />
+                    <parameter id="p3c7817fd2f2c4907a7b7ccae99eea1cb" name="breed" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:47:47" />
+                    <parameter id="pc71676e7b5284be18d35f108a4ce3338" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 14:47:47" />
+                    <parameter id="pfc144a4032b045fa935c3a6b8af12257" name="photograph" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:47:47" />
+                  </parameters>
+                </operation>
+                <operation id="ob35baf35e60247e6bb08879a1b95d8b2299" cid="OP007" name="userAdoptService" creation-date="04/16/2024 14:47:52" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p5c7e5d005e6e475b96215cb332008fb3" name="photograph" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:48:13" />
+                  </parameters>
+                </operation>
+                <operation id="o19efc85a16544f8694136b82e21878dd810" cid="OP008" name="saveAdoptions" creation-date="04/16/2024 14:48:22" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pdb6e769ab8f64b7082f487f211ac01d1" name="type" type="String" type-id="Uml.String" creation-date="04/16/2024 14:48:36" />
+                  </parameters>
+                </operation>
+                <operation id="ocaaa177c914d43bcad6f112fe790efd629" cid="OP009" name="saveToFileServ" creation-date="04/16/2024 14:48:41" type="" type-id="" visibility="public" />
+                <operation id="o92069a4bfa1840e59d97022a0058531d675" cid="OP010" name="loadFromType" creation-date="04/16/2024 14:48:51" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pb67f9ad2ffe24743bf2a13f9b20287a4" name="type" type="String" type-id="Uml.String" creation-date="04/16/2024 14:49:08" />
+                  </parameters>
+                </operation>
+              </operations>
+            </item>
+            <item id="65dca9dbefc8459ba7f28f74c9b1ba64" cid="PROP006" type="property" name="m_message" owner="ca5175889c284e92bf96abf3ae77f787" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv11fe3ace3ea044d8b30005db12d375d6" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="m_message" />
+                <tagged-value id="tv002b3c77ae304f1d890163c123d71905" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tve901b150ccad49709abd956ee8fda6b3" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tvbfeecfcfd66d40d997296409a1906206" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv21c75389c2f9476a9ca2342f4a64233c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="633" />
+                <tagged-value id="tv62b9a69c54c246a88be4855f08335fd5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                <tagged-value id="tv264a09cd51664ceaaadd38e250e6aea7" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tv54c03714484b4f609a23c1406d743f59" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <structural-feature type="std::string" type-id="std::string" />
+            </item>
+            <item id="396dd9910f5045c3816f42ec4c07e809" cid="C006" type="class" name="CSVOutput" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv851fabcfeaf14498828b614cb6058b4d" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvc2e44cc8466945889b6a08692b990dfc" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="CSVOutput" />
+                <tagged-value id="tv477065f1c1d44fcf909e05559ae23eb1" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvf62fb5a72dbb4cf6bdc00230783e26c9" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tvbb675b4035554e3096705d026af5878a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv28c5efa4cff74f0ebe60e4e798254a17" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="12011" />
+                <tagged-value id="tv4fa8b5ce01744d73b8ec90a39ed85a39" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="937" />
+                <tagged-value id="tv4e162f4205e342f3a09c357f06c45e72" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tvc063ee85aed04ef181dbebd96829438f" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <operations>
+                <operation id="ef71460db3b84b08af891f1cb0c55309" cid="OP021" veid="o50a822f731564fb4bb67cd392b44d3fd159" name="saveToFile" creation-date="04/16/2024 15:19:32" type="" type-id="" visibility="public" />
+                <operation id="328a1a3f31fb40a5b21af6d88e3f578b" cid="OP022" veid="of9f117c4b8ce4751b64ddfdf8b28ef1e931" name="loadFromFile" creation-date="04/16/2024 15:19:49" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+              </operations>
+            </item>
+            <item id="e0ec31d855364a32bc9bb7b7c0c672e5" cid="C004" type="class" name="TextRepository" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvc94651cacbf74d48b460c6f1a5797a5a" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv0ecf9067a938427ebc095aa6f2222fd4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="TextRepository" />
+                <tagged-value id="tva82c01c44f8c4427a6d764b120ee7f36" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv41696839ae0244efbd5f63bdc93530dd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tv66154fe9c3234fc8ad8bbebf7be8c9ed" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv8beb1ec7e8e44680802f70ad53fc3a74" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3364" />
+                <tagged-value id="tv933b85548d2443f2ba5317ac3a6b1a37" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="2148" />
+                <tagged-value id="tv30ac2f2700bb421a9ac6202e2d5b1859" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tv7d8336302acc405190191f5f0d8156a1" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <operations>
+                <operation id="oc63cf5d133c348e7bdaa436016ab7434416" cid="OP006" name="TextRepository" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvdb7671bcaf8c4edf810464ad3a30ad2f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="TextRepository" />
+                    <tagged-value id="tv64c5431b64334000b149d984ed65c256" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tvf35aab740a094c3b946e647a219ae111" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv73ddf988b09e434486885ed2d947e137" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="3423" />
+                    <tagged-value id="tv078181de80944d9997088b1363b41c10" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="203" />
+                  </tagged-values>
+                </operation>
+                <operation id="od31d3defa0914efbafee7c0f832f03e5947" cid="OP016" name="addRepoDog" creation-date="04/16/2024 15:17:44" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p2221744dff1d44e1bf7dc568b6f833c3" name="dog" type="&amp;Dog" type-id="&amp;Dog" creation-date="04/16/2024 15:17:50" />
+                  </parameters>
+                </operation>
+                <operation id="ocfed85e374964d438f61e385d251a252878" cid="OP017" name="removeRepoDog" creation-date="04/16/2024 15:17:59" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pd5fecda4754e4f8eaa15033376b5ef05" name="photograph" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 15:18:03" />
+                  </parameters>
+                </operation>
+                <operation id="o018487e5e3c54426b645a08b1a3b2993278" cid="OP018" name="updateRepoDog" creation-date="04/16/2024 15:18:09" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p614569bb40a04b6f91efe8893b9e1f99" name="dog" type="&amp;Dog" type-id="&amp;Dog" creation-date="04/16/2024 15:18:12" />
+                    <parameter id="p658ef17034434c118d03ad58421f4464" name="name" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 15:18:12" />
+                    <parameter id="pef8636f92e024426aa990b673f8d7c4e" name="breed" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 15:18:12" />
+                    <parameter id="p94700d4fc4484ebb8634949be09417d6" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 15:18:12" />
+                  </parameters>
+                </operation>
+                <operation id="of7d6c8f57ab948009decc0a2e96183cb903" cid="OP019" name="loadFromFile" creation-date="04/16/2024 15:18:15" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+                <operation id="o3f91c38cd7d44d37b0537f66d821e11a844" cid="OP020" name="saveToFile" creation-date="04/16/2024 15:18:32" type="" type-id="" visibility="public" />
+                <operation id="c4e15f377aa34cf5a79b6f94cf6ca604" cid="OP010" veid="of9172ceaa4164e0e97df94eca12a0889418" name="outputToCSV" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="c27c4450f41e4071b3e990ec7522278c" veid="tve52cafc46bbe483b805ad204d146e541" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="outputToCSV" />
+                    <tagged-value id="5bb383aa06da467bb960959c22968a49" veid="tvc3947e2a3cc74c5b8c5b434bc30c1c9c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="7114b61c73e94fc4858a29176148932e" veid="tv5bccb1c71ac847b0980183151dbad1c0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="befa5042cf5d4993bde496ffb6f43429" veid="tv27d5377f82b148f6a546dde892b390c1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14004" />
+                    <tagged-value id="3ecb0bc0a9fc40f4bb20a69f4ad8cbfb" veid="tv0ba892a38caf47d09bda060a44488efc" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="114" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	TrueDBRepository* repo = new CSVOutput();
+	repo-&gt;saveToFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="6d82855866cd448981de9ff6062d270e" cid="OP011" veid="o86378d8e4d4b4c47a32e6fd6d3e0466e418" name="outputToHTML" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="90c9680c9fa145debcbb9c660d6bb602" veid="tv48e6947ccf924d19b3f02cf475c72f8a" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="outputToHTML" />
+                    <tagged-value id="835f8a44ca6148cca3d3f2088b3ca4fa" veid="tvefd48d3097e847cca019e3f62883ed32" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="320e1cf2d25844c4b65ad69e8f8bd67c" veid="tvfe3d8cd78e624c929e6dc2a6b9a7002e" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="b223bc67b55046a7953583b7432f67cd" veid="tv102ca080f10d4db5bd8e8309068325e0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14122" />
+                    <tagged-value id="05d535f69c604c88ac87cda2b62c08d1" veid="tv1ecf4607d983485e8e179b64d9bc9ee4" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="116" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	TrueDBRepository* repo = new HTMLOutput();
+	repo-&gt;saveToFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="caa655e0d6bb4034ab22a6af7e575e26" cid="OP012" veid="o4d0bf2f999124831b9de3e49fa2fa170418" name="loadFromCSV" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="a6c7d24f7c4d4ec3a9a8390116af579d" veid="tvabe4eda94763471ba2260a37d118822d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="loadFromCSV" />
+                    <tagged-value id="f312b11f9b8c4a51883dc4669bec09f2" veid="tvff2cdca7058f4744b1b317678aac64fd" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="1127120716d44b24a11122a36d70ca13" veid="tv8f76ed3e57fa4d46b8c4ca6105e90bb3" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="a830e321df1f4b54897f87f5b847e54b" veid="tv9cc8b22377b74c048d06e1ecd3347aad" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14242" />
+                    <tagged-value id="7676c29aa22c431e931751d82c52455a" veid="tvebb49b75715043c1b9d94bc496c0d7a6" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="109" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	CSVOutput* repo = new CSVOutput();
+	repo-&gt;loadFromFile();
+</source-code>
+                  </source-codes>
+                </operation>
+                <operation id="cc7bd4ccc24941f88d3243b06d9c48b0" cid="OP013" veid="o91e47d8e9c0e42d0b6547ab35a3827e5418" name="loadFromHTML" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="20abce98429e416e90f4f718d5e795a3" veid="tvd62ef8c7cb844553ac184b3164875c0c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="loadFromHTML" />
+                    <tagged-value id="aab162082cfb412dbfbf2a525cf53ba5" veid="tv33781b82aca64082935604ec9950ba11" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="cfe322089c7e475f8abed6dfef11d4d5" veid="tv28e197e9d1594489b196b8de6de1fea0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="1f8202ab8fd341ce9bd2216e7d22f67d" veid="tvd479bb500f7549788afa90fa79aa112d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="14355" />
+                    <tagged-value id="37c753929aca47cb885843d15e073ac5" veid="tva9c945812bfa485f8f72fe011f7b493a" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="112" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp">
+	HTMLOutput* repo = new HTMLOutput();
+	repo-&gt;loadFromFile();
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="326f0f246a714617b7b58ee22a0c50ed" cid="C011" type="class" name="Dog" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv1e995882a5784ab282fd13791ce90dfa" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv63856957d2f64fcc9c624610c1bc45fe" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Dog" />
+                <tagged-value id="tvb17ef7cc1b044c3c8e443822a8bc235f" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvaef78e5612e243f2adbee56c8b1def4e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv8d2ba27701ef4884ba09365e96f637e0" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvc715669261c8473781e47fc3524a41f0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="78" />
+                <tagged-value id="tvf8f115f96fa74b81ac0a0a0463fd113e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="1772" />
+                <tagged-value id="tv23aadef84e6e4539b72709efd76ca08d" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tv6a8c23a9ed1149b9be551867f6cf35ce" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="ac12d8548ab6f4a35bd764a3b768eda0b422" cid="PROP007" name="name" creation-date="04/16/2024 13:54:39" property-ref="730d0490480349bc81425c3ef759f69f" />
+                <attribute id="aacb4f377cf554249a893d06d9324cf18422" cid="PROP008" name="breed" creation-date="04/16/2024 13:54:39" property-ref="d6ed9a3bdd334e91a03d32dacc2390b3" />
+                <attribute id="ad889cab8a5da43449fd2f910e074b0d2422" cid="PROP009" name="age" creation-date="04/16/2024 13:54:39" property-ref="cf511321bd0d4ebba53b1332f3a518bf" />
+                <attribute id="a2a337171fd8e4669aa6cbfa62b0e2fb1422" cid="PROP010" name="photograph" creation-date="04/16/2024 13:54:39" property-ref="c309a3a87f914643b9ef03b7d454bb3f" />
+                <attribute id="a285a4e4dfd434e4391283e41cf2a0568422" cid="PROP011" name="adopted" creation-date="04/16/2024 13:54:39" property-ref="78e239d01be84b67a218a1eaf2726611" />
+              </attributes>
+              <operations>
+                <operation id="o65fcfb6383ac4cc58274c99ffef2c614422" cid="OP018" name="Dog" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p6934b1146ffc4860a1ab94f0a72a824c" name="name" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="p66446c413b204007b433d18b1032ceba" name="breed" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="pcfcf53cae92249819fc3aabd05871493" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="pfb217cf04b6f4661bfc874cb8c810ab2" name="photograph" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv68b677956a4244eb91b28cc9f9f42eca" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Dog" />
+                    <tagged-value id="tvf0781a6da3d346d39870727f9be9e2ee" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv397c248b0afc4a1594cb28db2c600f4f" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv61ecae03633b49ad8ebd23eece326ca1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="318" />
+                    <tagged-value id="tv8499df565d564a61a05689555c9309ca" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="221" />
+                  </tagged-values>
+                </operation>
+                <operation id="o604a99c5bea24f5d859c597e926bfd64422" cid="OP019" name="Dog" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p10afa90d61e04b1ba2985119a438d4c7" name="name" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="p1b8105b67bc34ce0a8a858ec2ca6c08c" name="breed" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="p82a182dcf0bf4596950f7777e26acbca" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="pd20059a7d30c47818978ffc2e3411fba" name="photograph" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                    <parameter id="p38c99e78848d4cdfb09327fa13f3da73" name="adopted" type="bool" type-id="Cpp.bool" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv13b95360875c4879a2663b7712256ffb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Dog" />
+                    <tagged-value id="tv70ed1d9cfbfa492a9f3c285a2d11da2f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tva4cfb1b7b5a744c18c70a864c0519a1b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv64d6a3d90db44a878a64d569614aa522" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="539" />
+                    <tagged-value id="tvbb48b7d2e326448fa17962b9e38f6f36" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="246" />
+                  </tagged-values>
+                </operation>
+                <operation id="o7240d1dbb92c4191afff4a71f6145179423" cid="OP020" name="Dog" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <stereotypes>
+                    <stereotype>destroy</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv359fa85e951a4fd6a5052593e66ed2ef" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Dog" />
+                    <tagged-value id="tv1c6014b692624197859f3047555dd792" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tvd2fe26a5be9f49be9741b0f7339f5c0d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvfc69fa8469794723b15120ea2275042c" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="785" />
+                    <tagged-value id="tv32fdcfc7a9eb4b5ca1cacc8c1b2b34be" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="17" />
+                  </tagged-values>
+                </operation>
+                <operation id="o9b50b727d3954509ac1121ce87ec8fad423" cid="OP021" name="get_name" creation-date="04/16/2024 13:54:39" type="string" type-id="Cpp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv1452c890fc8f4f89817fd65a0380e193" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="get_name" />
+                    <tagged-value id="tvd8c45167eee7480d8716815fb18e54ff" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tvb18bfd75b5ee4fff8619dade60d2bc1d" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tva18563a22e124ca09a8451bb9bfa6ee0" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="802" />
+                    <tagged-value id="tv3894b3cda3fd46dfb7f4e926a8308354" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="40" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return name; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o4e7212846b4a4b6ca0a176e51782dfb0423" cid="OP022" name="get_breed" creation-date="04/16/2024 13:54:39" type="string" type-id="Cpp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv7419ea6f96594f8aa43534230cfe73f3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="get_breed" />
+                    <tagged-value id="tv07a3ef6148174a749b92dfb1a061f601" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv6e79cb46554d4a0190838cd741a2b18a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tved5b2dac995943a1accfb2611b3d27f4" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="845" />
+                    <tagged-value id="tvb9642f70a3534901b2c03fed4679a6ac" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="42" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return breed; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o882a2365d7cd441d9d98342ef7f6607c423" cid="OP023" name="get_age" creation-date="04/16/2024 13:54:39" type="int" type-id="Cpp.int" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvb7fd08521d4d4c3d920d0c0ced2a1dc3" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="get_age" />
+                    <tagged-value id="tv7a20fb72d3a94ee3bcd9fa194de41fd9" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv74a41f2bd1ce4d8b941187c57f8e09cf" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv08def5b7e73d4447b9bf05c56756c8c1" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="890" />
+                    <tagged-value id="tv357bb74167d54654a00d2396bebf373b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="35" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return age; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="ob0d60754a62b45fc8f5668286c4350e0423" cid="OP024" name="get_photograph" creation-date="04/16/2024 13:54:39" type="string" type-id="Cpp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvf508a8bb508342aeb79ceb9d929a65e4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="get_photograph" />
+                    <tagged-value id="tvd5fecde1776f42e387d19dcb379b4cc4" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv8260124c8d4e4c47af7e39d1db60ad9c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvb0c218a5881a4757ac17e3cca7ed9371" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="928" />
+                    <tagged-value id="tvacaf65ac437f4f0687cc627cfad3c59e" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="52" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return photograph; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o68892f36e394416ba5f752b7a90b4f80423" cid="OP025" name="get_adopted" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tv81214dcde2124e8e9cb3b62126f824f4" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="get_adopted" />
+                    <tagged-value id="tv80a6e15dbb374044a1ec8d134b40990b" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tvc2f40af98068415297686240f215c98a" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv049abcabbf3549518798a35334b3b897" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="983" />
+                    <tagged-value id="tvee3b271e84d24e77a9ca1c2740afc176" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="44" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return adopted; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oabb6da9e1bc14da486ee9eb1757c6d28423" cid="OP026" name="set_name" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p6db6e4a59a434a1e8462af57a09020bb" name="name" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvf6808499b96e4488b316bfa082b5be97" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="set_name" />
+                    <tagged-value id="tvd34174873ab14eb99146dbe6ee13c67e" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv53f655db376f4df693e7960fc1866b5b" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv79cb7f5859994e4ebe2b9baf678ca95f" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1032" />
+                    <tagged-value id="tvf6897f4179b54170b6158bf8ebaf9fa3" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="56" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> this-&gt;name = name; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="odaf0780fae9446ba9ac6b66b72c93c94423" cid="OP027" name="set_breed" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p1bdea0dd2562485888df6bf9c0500509" name="breed" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv93b4aa75231e4537bdbd7f893ff3d250" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="set_breed" />
+                    <tagged-value id="tv9454d1d11b1a4daba76956d2c88b8b87" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv3f852b8cb1094da39432ee672dbd8c30" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv720186272cad4c2a9755bb4541f14318" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1091" />
+                    <tagged-value id="tve7e093b72da94a46a761f2ceef71b949" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="60" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> this-&gt;breed = breed; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o999f0ae5a9ac492a8f4411839cd4af12423" cid="OP028" name="set_age" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pfb0be80e17554153bf547463fbb43619" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tvb49b511aab4c49b28ece176b5d58c20b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="set_age" />
+                    <tagged-value id="tve941de0489b24bdfaa1fdebbce8196f2" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv45791905404a440e88de467b25035487" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv9e1e09ec758043a8b0caf9606261e153" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1154" />
+                    <tagged-value id="tv035465aa4bcf4e52bbf692487716ced8" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="49" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> this-&gt;age = age; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o28d3560b65de4ed4912ee4d60728f417423" cid="OP029" name="set_photograph" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pbcbbca3c14c84043961228ef3b867af0" name="photograph" type="string" type-id="Cpp.string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv29c3c6a5ddba412690860fd750ca1558" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="set_photograph" />
+                    <tagged-value id="tv12834a38c746469db6b6858b8796de62" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tvb353148821b347fd8b2f22ccecc17263" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv892abdc946f64a5db00e49dba0a5c88d" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1206" />
+                    <tagged-value id="tvb79bf3d2c8cd4732b02f331bcc2d7f61" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="80" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> this-&gt;photograph = photograph; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="o90119c58d50a4c519353662a028244e2423" cid="OP030" name="set_adopted" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pa0c04a0a006c4a5987053fafb902df37" name="adopted" type="bool" type-id="Cpp.bool" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <tagged-values>
+                    <tagged-value id="tv07951fda86c346c2b05204df9c4f2bb0" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="set_adopted" />
+                    <tagged-value id="tv18d38d9cc5f347dfbb956f5788ff518c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv7b2ade819ef945e79d8b905e41d564fa" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvee330e4db6654ee39e49e1c8f133e097" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1289" />
+                    <tagged-value id="tv002768159bdb44b3a107b6def18922ed" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="66" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> this-&gt;adopted = adopted; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oea504bddff1e456aae3b2c07629cf8b2423" cid="OP031" name="dog_to_string" creation-date="04/16/2024 13:54:39" type="string" type-id="Cpp.string" visibility="public">
+                  <tagged-values>
+                    <tagged-value id="tvb1c07e6e0ac04bee92f8f88ce9534474" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="dog_to_string" />
+                    <tagged-value id="tv3f411fac808d45cb9d9858fae5dabb32" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv8077d708f4cb4a008eb31ea499034f21" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tva35a1176ca55465ba2f53e71362ebbdd" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1360" />
+                    <tagged-value id="tv72e2ca76952741389c322cd20f448b1d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="184" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return "NAME: " + name + "\nBREED: " + breed + "\nAGE: " + to_string(age) + "\nPHOTOGRAPH LINK: https://kcaaap.com/dogs-photos/" + photograph + "\n\n"; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="ofd50a6f654fc423bb02fb95ec891f399423" cid="OP032" name="==" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p70f1518d68b3483789605745d7950afd" name="d" type="Dog" type-id="Class:326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>operator</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvbfd67db3fa414212b51a4b31e999c1ea" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="==" />
+                    <tagged-value id="tv7231306723344da4b1fa508ec4f2d45f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tvdb36f61ceafc47d4b0d687cb2dd62a8c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv6e36c7122b4e45d2a1edcf0721dac061" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1549" />
+                    <tagged-value id="tv7a00000a99844a41a2e859c1b8de0431" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="146" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return this-&gt;name == d.name &amp;&amp; this-&gt;age == d.age &amp;&amp; this-&gt;breed == d.breed &amp;&amp; this-&gt;photograph == d.photograph; </source-code>
+                  </source-codes>
+                </operation>
+                <operation id="oe527e007cd4a4a909f633935c83141b9423" cid="OP033" name="!=" creation-date="04/16/2024 13:54:39" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p6cc2178b5c5c4ee78f783244851a20ef" name="d" type="Dog" type-id="Class:326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>operator</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvcbf3f1d677fb4378a81158d461f056d1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="!=" />
+                    <tagged-value id="tvc30b16714d054bf0a3cf790becb7ff5c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                    <tagged-value id="tv430a22374c10472fabdb0d3e1a539381" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv1ff14b50b43641d89ef61e0778e01831" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="1700" />
+                    <tagged-value id="tv84288fe382724aff875df074e37390da" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="146" />
+                  </tagged-values>
+                  <source-codes>
+                    <source-code language="Cpp"> return this-&gt;name != d.name || this-&gt;age != d.age || this-&gt;breed != d.breed || this-&gt;photograph != d.photograph; </source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="c10b4ae4ea454ce9bca1f3f8e55b6d07" cid="C008" type="class" name="UIException" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvd19bb17d84034125b411927a3c9bbe81" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv9c00d97f5ea54b76984d905ebc3c059f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="UIException" />
+                <tagged-value id="tv4560799f02c24ff7925ea8eca750e0db" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv15dd5fd7cfe44ce2a08160020396f93d" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tv6ad779d56e53474a8366f6d84ad2d475" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvb62a26ecc2f0441ebeae0c8a171c59b7" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="78" />
+                <tagged-value id="tv3df18e95385346ceb3d9b8df422900ad" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="243" />
+                <tagged-value id="tv91eb5b19b4564b5c83ecdbe46eef3865" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tv266a64ddc6db4f60b5ad5d25f2bb14ff" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a228b7e9808394c65be2844539763079e419" cid="PROP004" name="m_message" creation-date="04/16/2024 13:54:39" property-ref="d5a211a2cd4c4c55bff1ae68263a3aba" />
+              </attributes>
+              <operations>
+                <operation id="o46761aabea1d4425b1a11a160d827b8c419" cid="OP014" name="UIException" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pd5d017bf5aad4c5ba4cdc10206e48a8d" name="message" type="std::string" type-id="std::string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv53e523711a6644c2924716fa04a5fe2c" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="UIException" />
+                    <tagged-value id="tvc667a12fb19d4596bf065f24f8b68952" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                    <tagged-value id="tv8b3c9535d42c4a1c935c0fe8bd250671" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv9033df08cfcc490fbd4d56796e8a6533" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="171" />
+                    <tagged-value id="tv78f70cff9c1b48fab2140b76a2ce464c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="66" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="290644eafb8a4e4aa389d2efb43d8dcc" cid="C009" type="class" name="ServException" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv08518b7957b14938ba1f83dd151ac8d6" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv01af794033b34770b310b1675cfbb171" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ServException" />
+                <tagged-value id="tv38eaac56025a44ae9fcd21d78f789562" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvc7a6fcc525f74abd897d87c791b81c90" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tve5f3fcffff1d41b4aa15d55eb8be7808" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv0a837713c0824c059fe4c2f14bb510ff" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="325" />
+                <tagged-value id="tvb9a5f1596f63479ea7f3652c832173e5" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="245" />
+                <tagged-value id="tve63ad98f02bd411999fd88fb74eec8ea" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tv1f26d76b7a6b4496b6f5f1dff8028f81" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="aabac3413255b4bb2b635809916d50302420" cid="PROP005" name="m_message" creation-date="04/16/2024 13:54:39" property-ref="b85e79df79ec4d00b97076686a68200c" />
+              </attributes>
+              <operations>
+                <operation id="oaf24e9d616914e58b2aa8def846dacda420" cid="OP015" name="ServException" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pb1c25a0aa85043dfb44198be8c5ba830" name="message" type="std::string" type-id="std::string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tv17789a59b29d4d8a88846b2d9a28f575" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ServException" />
+                    <tagged-value id="tv848247fe634e41468c4e12f583df6ab6" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                    <tagged-value id="tvbdd70a1743b04f1893d9a1cf9d1fbea5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tv39cd6271be004684a8d07dacaff57041" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="418" />
+                    <tagged-value id="tv5fb4720c54b943f5ab869e6b74bc8d19" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="68" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="6e55d27401144020b47f03f797253372" cid="GNR002" type="generalization" creation-date="04/16/2024 13:54:39" from="7cc6844794e8496e9aa08728f2e7c322" to="e0ec31d855364a32bc9bb7b7c0c672e5" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvcfdcdb525b794b48830acfcf2a11a082" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="c5c1f4dcfa0e448ab08fc62b2588dd33" cid="C002" type="class" name="MemRepository" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv21994eb3623a49d8ad33d06169576e36" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv8d0bd6de66934f0d9af7c725b53078fb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MemRepository" />
+                <tagged-value id="tve9b06c83f7f0499782d0d53e5624669e" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv297b6bb2ea1b41f2849fb241ba79294f" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                <tagged-value id="tv41ec3bcaaa3c409aa52037238d9ed704" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvd0e11362674d4616a050c0b4b01a9cb5" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="293" />
+                <tagged-value id="tv1828f91148f74af2b15fca17ad2170de" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="2379" />
+                <tagged-value id="tva9568e273aef48e193b3a67576b9bdd1" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="14469" />
+                <tagged-value id="tvec205c0a232a4e4e977ceb3d01c39777" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/11/2024 21:54:56" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a730d94851c5f4adcaf90ee93bb2b2164426" cid="PROP015" name="dogs" creation-date="04/16/2024 14:49:26" property-ref="9cf42883c6384a4b969ecb704670f6be" />
+                <attribute id="a10162a3fefee4cbb9cec86c3f73d16e6653" cid="PROP016" name="adoptedDogs" creation-date="04/16/2024 14:49:56" property-ref="c219254c72c74ae98d407880c1a2d51c" />
+              </attributes>
+              <operations>
+                <operation id="o46a731e7cba249488812da6ca0c0c6da407" cid="OP003" name="MemRepository" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvaa88c2926af4461291d34eeb90aeebcc" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MemRepository" />
+                    <tagged-value id="tv2571759d74f14e548cc029a1c15b5458" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\repository.h" />
+                    <tagged-value id="tv7d1c64277def4cb4a23be5950395a804" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvf5ee6f5a57bd41b7821547c26e3fbcb4" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="449" />
+                    <tagged-value id="tv5b61ebadb1d44b5ea97b37100cc63a37" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="849" />
+                  </tagged-values>
+                  <documentations>
+                    <doc id="b4e0cc20a51d47c9974dc1c604fd5f56">
+                      <text>
+                        <default>
+                          <style font-name="Verdana" font-size="12">
+                            <text>
+                              <solid-brush color="#FF000000" />
+                            </text>
+                          </style>
+                        </default>
+                        <styles />
+                        <content>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>/*
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>			This function initializes the repository with 10 dogs.
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>			Input:
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>				- none
+</t>
+                            </p>
+                          </paragraph>
+                          <paragraph>
+                            <style numbering-type="None">
+                              <numbering name="" multi-level="false">
+                                <numbering-level type="None" level="0" format="{0}." />
+                              </numbering>
+                            </style>
+                            <p>
+                              <t>			*/
+</t>
+                            </p>
+                          </paragraph>
+                        </content>
+                      </text>
+                    </doc>
+                  </documentations>
+                </operation>
+                <operation id="o75c15d87ea4b477592215869cce18d51284" cid="OP011" name="getRepoDogs" creation-date="04/16/2024 14:50:24" type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" visibility="public" />
+                <operation id="o678f181e678b445dab7997e36a5ecdca331" cid="OP012" name="addRepoDog" creation-date="04/16/2024 14:50:44" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pd5d0c5f235d64e5783807f20fce223a7" name="dog" type="&amp;Dog" type-id="&amp;Dog" creation-date="04/16/2024 14:51:41" />
+                  </parameters>
+                </operation>
+                <operation id="o13679c540b4a4ef6812f12e92ef12d25565" cid="OP013" name="removeRepoDog" creation-date="04/16/2024 14:51:41" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="p32e89989efb04794a489f755025e4724" name="photograph" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:52:21" />
+                  </parameters>
+                </operation>
+                <operation id="o6527dbdafa1f427d979f0c90b3ec231749" cid="OP014" name="updateRepoDog" creation-date="04/16/2024 14:52:51" type="bool" type-id="Cpp.bool" visibility="public">
+                  <parameters>
+                    <parameter id="pe286d871dad44fa58dba8d239899e297" name="dog" type="&amp;Dog" type-id="&amp;Dog" creation-date="04/16/2024 14:53:40" />
+                    <parameter id="p1d0b69d15cc44aa1b5ddd14c5b4fb605" name="name" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:53:40" />
+                    <parameter id="pedd989071b8346f8a136a1b4e6f9dd82" name="breed" type="&amp;String" type-id="&amp;String" creation-date="04/16/2024 14:53:40" />
+                    <parameter id="p6a077ec862c34a8bb08fc17ddf091164" name="age" type="int" type-id="Cpp.int" creation-date="04/16/2024 14:53:40" />
+                  </parameters>
+                </operation>
+              </operations>
+            </item>
+            <item id="eb52dacdcdd042d29e36c44ed166b684" cid="GNR003" type="generalization" creation-date="04/16/2024 13:54:39" from="396dd9910f5045c3816f42ec4c07e809" to="7cc6844794e8496e9aa08728f2e7c322" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv2fb8fe4c68914d8aa20a2b20fc27df85" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="9cf42883c6384a4b969ecb704670f6be" cid="PROP015" type="property" name="dogs" owner="c5c1f4dcfa0e448ab08fc62b2588dd33" creator="" creation-date="04/16/2024 14:49:26" visibility="protected">
+              <structural-feature type="vector&lt;class Dog&gt;" type-id="vector&lt;class Dog&gt;" />
+              <property default-value="vector&lt;class Dog&gt;" />
+            </item>
+            <item id="d5a211a2cd4c4c55bff1ae68263a3aba" cid="PROP004" type="property" name="m_message" owner="c10b4ae4ea454ce9bca1f3f8e55b6d07" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tve7334b42b9d24110a52d12f8cbcd596d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="m_message" />
+                <tagged-value id="tv782e810851af4b5aaa96361ad961b0c6" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv5883bad78a3d41c79530076627d15ffc" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tv27861b57ad0240bea7327f392af75bcb" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv4df931fed976490eb1e5d5f429698b99" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="135" />
+                <tagged-value id="tv2b41116e7466465ea54af5a4e0a1d93c" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                <tagged-value id="tvd7c1de9c4cf44aaf9686d798bd4b750a" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tvb61787184c6444b0b1cd1a68978435d3" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <structural-feature type="std::string" type-id="std::string" />
+            </item>
+            <item id="ca5175889c284e92bf96abf3ae77f787" cid="C010" type="class" name="RepoException" creation-date="04/16/2024 13:54:39" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv6edaa4f73115422d844e97cd242a9958" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvf921c2d108da4da28f3c368790b7c733" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RepoException" />
+                <tagged-value id="tvfc0ac0f0ced04f51a730967111c207f5" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tve7ccce97868a4c83abf3a085675a1aee" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tv74b72d7a8cec4620b3c43ad4f496d9d5" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tv9d4f85febd444a39a3bea9e0f0b8a0bb" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="574" />
+                <tagged-value id="tv11f52dfddf55499882fd13874118fa94" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="245" />
+                <tagged-value id="tv7236fba15f4c487fbe59b038147d28ea" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tv6c37fedcb3ff430999408dd02d1444e4" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <owned-items />
+              <attributes>
+                <attribute id="a07719c43aeeb4abfaffb63ec4af78b10420" cid="PROP006" name="m_message" creation-date="04/16/2024 13:54:39" property-ref="65dca9dbefc8459ba7f28f74c9b1ba64" />
+              </attributes>
+              <operations>
+                <operation id="o67f90391dec24eadae400d667fe88cd8420" cid="OP016" name="RepoException" creation-date="04/16/2024 13:54:39" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p4bbeef855e2c4bc2a3933a6bd0113e2b" name="message" type="std::string" type-id="std::string" creation-date="04/16/2024 13:54:39" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                  <tagged-values>
+                    <tagged-value id="tvd99881d7e30d43c7b4528d4c8b3eca66" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="RepoException" />
+                    <tagged-value id="tv643368cd1fc34c17a678d0f1bcf4412c" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                    <tagged-value id="tvc13eb14be49149e69ac7b0df391a38ee" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                    <tagged-value id="tvc7997dceb5624676902cbdb2ac8bc655" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="667" />
+                    <tagged-value id="tv07390c8abf3c4e38b6e553cd13f3291b" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="68" />
+                  </tagged-values>
+                </operation>
+              </operations>
+            </item>
+            <item id="c746c9f5d07e4b52886537537dd12bd4" cid="DEP001" type="dependency" creation-date="04/16/2024 13:54:39" from="24afb05a1459435d9fcfe1c72a58b8ec" to="326f0f246a714617b7b58ee22a0c50ed" visibility="package">
+              <tagged-values>
+                <tagged-value id="tva19cf24a1e2745c8a195704a80a7c4cd" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="d6ed9a3bdd334e91a03d32dacc2390b3" cid="PROP008" type="property" name="breed" owner="326f0f246a714617b7b58ee22a0c50ed" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv0606b910f2e743ebac231eca3b6822e1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="breed" />
+                <tagged-value id="tv2c601aca64f1419682fc5a0e48624fda" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tv8be75da657e24e38b817b59d03c37760" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\domain.h" />
+                <tagged-value id="tv58bc483389264de1aa44cee907868b7c" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tvbd668d8d169f413a91f9a7b606ab69d8" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="118" />
+                <tagged-value id="tv7d22852ea9f542d99e2b291a1ac5dd1d" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="13" />
+                <tagged-value id="tvae84d3b1c4744ae38e97e0445f226707" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="1850" />
+                <tagged-value id="tv936e27009ba34a7d831ff01177303987" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:58" />
+              </tagged-values>
+              <structural-feature type="string" type-id="Cpp.string" />
+            </item>
+            <item id="bb14ca0f4ee84da7818571b32e83da1a" cid="REL003" type="relationship" creation-date="04/16/2024 13:54:39" from="02a87c81c48f4c609bd7a169e9987b25" to="f400c99c1ac044dda8501e27aa1ae46a" visibility="package">
+              <tagged-values>
+                <tagged-value id="tvb1e09f4773b841f58fc4f70daa6c7b62" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+              <relation from="02a87c81c48f4c609bd7a169e9987b25" to="f400c99c1ac044dda8501e27aa1ae46a" derived="false">
+                <start-role id="umlar-fb9b4661-2c37-4efa-968f-d454c910a6fe" name="" navigability="" association-type="composition" visibility="private" />
+                <end-role id="umlar-911c99c2-a118-42e4-bc05-0b74f159e4fb" name="" navigability="" association-type="association" visibility="private" />
+              </relation>
+            </item>
+            <item id="b85e79df79ec4d00b97076686a68200c" cid="PROP005" type="property" name="m_message" owner="290644eafb8a4e4aa389d2efb43d8dcc" creation-date="04/16/2024 13:54:39" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv690588928af5439993ba90b91e23adb9" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="m_message" />
+                <tagged-value id="tv20f79c2520d84318a9ccef24ecd89a1a" name="SourceCodeGroup" type="reference" multiple="false" hidden="true" ref="pb3a60f5794b54abfa6d853db158951db_753927057" />
+                <tagged-value id="tvfb499c700fb2494e9f1c1df57f1a3060" name="SourceCodePath" type="text" multiple="false" hidden="true" value="C:\Users\admin\source\repos\assignment_6-7\assignment_6-7\exceptions.h" />
+                <tagged-value id="tv3c4adbdbf7954740a7f888b3995b34d6" name="SourceCodeLanguage" type="text" multiple="false" hidden="true" value="Cpp" />
+                <tagged-value id="tva02d2036882d4d83b2f264043bd2c86b" name="SourceCodePosition" type="text" multiple="false" hidden="true" value="384" />
+                <tagged-value id="tv8538f37941bb4d83a6ba3bd00f7d3f46" name="SourceCodeLength" type="text" multiple="false" hidden="true" value="22" />
+                <tagged-value id="tv23b68460652c489d969ae35de73f4dd6" name="SourceCodeFileSize" type="text" multiple="false" hidden="true" value="819" />
+                <tagged-value id="tva231d371af944301b209db041deafc21" name="SourceCodeFileChangeDate" type="text" multiple="false" hidden="true" value="04/16/2024 10:43:57" />
+              </tagged-values>
+              <structural-feature type="std::string" type-id="std::string" />
+            </item>
+          </abstract-items>
+          <sub-models />
+          <diagram type="uml-class" id="pa2de9f1bae904ae997b313f8e3f6e7ed_533195918" name="" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" namespace="" view-location="75,-270" zoom="0.6583">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author>Soptelea Sebastian</author>
+              </authors>
+              <description />
+              <creation-date>04/16/2024 13:54:39</creation-date>
+              <change-date>04/16/2024 14:55:04</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <tagged-values>
+              <tagged-value id="tva23e25cee2514274aeba55f4e85e4fea" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+            </tagged-values>
+            <abstract-items>
+              <item id="a08f9ca30511461f827956bee608da48" cid="DEP003" type="dependency" creator="" creation-date="04/16/2024 14:29:03" from="24afb05a1459435d9fcfe1c72a58b8ec" to="02a87c81c48f4c609bd7a169e9987b25" visibility="package" />
+              <item id="433fcf1ed50440db8d63374e6c4bd08d" cid="REL004" type="relationship" creator="" creation-date="04/16/2024 14:30:34" from="c5c1f4dcfa0e448ab08fc62b2588dd33" to="326f0f246a714617b7b58ee22a0c50ed" visibility="package">
+                <owned-items />
+                <relation from="c5c1f4dcfa0e448ab08fc62b2588dd33" to="326f0f246a714617b7b58ee22a0c50ed" derived="false">
+                  <start-role id="umlar-22664e44-8a62-48fd-9925-cededc5e2e9f" name="" navigability="" association-type="composition" visibility="private" property-ref="e27f9dd942974b10b7f8b32bec418121" />
+                  <end-role id="umlar-a44eb6f2-5df4-4d88-a2ee-90366e83d9d8" name="" navigability="" association-type="association" visibility="private" property-ref="11474541db90472587dccb97d077aced" />
+                </relation>
+              </item>
+              <item id="34e809a0abf840d3883f686dcc8cf591" cid="REL005" type="relationship" creator="" creation-date="04/16/2024 14:31:16" from="24afb05a1459435d9fcfe1c72a58b8ec" to="02a87c81c48f4c609bd7a169e9987b25" visibility="package">
+                <owned-items />
+                <relation from="24afb05a1459435d9fcfe1c72a58b8ec" to="02a87c81c48f4c609bd7a169e9987b25" derived="false">
+                  <start-role id="umlar-f1391604-32ab-457b-8471-9f2d48918374" name="" navigability="" association-type="composition" visibility="private" property-ref="38d1f6731d2243aaac55b399a2370b8d" />
+                  <end-role id="umlar-ecb330ec-baaa-48b7-934f-28ea72a932b8" name="" navigability="" association-type="association" visibility="private" property-ref="62804c97ea1749b0ab7241dfb46c12a9" />
+                </relation>
+              </item>
+              <item id="7c31c22d35b042bc94f79f7efc1690d8" cid="GNR001" type="generalization" creator="" creation-date="04/16/2024 14:55:04" from="e0ec31d855364a32bc9bb7b7c0c672e5" to="c5c1f4dcfa0e448ab08fc62b2588dd33" visibility="package" />
+            </abstract-items>
+            <layer id="6a741cc9106749e4b9ff1a77f883a58d" name="Default" visible="true" enabled="true" locked="false">
+              <item id="6e55d27401144020b47f03f797253372" iid="2b34d9a114c14ff78b44a31a797e883e" creation-date="04/16/2024 13:54:39" order-index="1" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="1258" y1="315" x2="1258" y2="236" start-border-pos="0.1203170046210289" end-border-pos="0.625" name-position="0,20">
+                  <points>
+                    <point x="1258" y="315" />
+                    <point x="1258" y="236" />
+                  </points>
+                </layout>
+                <relation from="7cc6844794e8496e9aa08728f2e7c322" from-iid="3c3fc08e63d14ce88429b73bb4b9b577" to="e0ec31d855364a32bc9bb7b7c0c672e5" to-iid="1f8517f93f6b41b9971edd579d616fb7" />
+              </item>
+              <item id="bb14ca0f4ee84da7818571b32e83da1a" iid="6ce2b46c7dbd418a9e82436ead43a92f" creation-date="04/16/2024 13:54:39" order-index="2" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-to-fields="false" auto-path="" x1="403" y1="451" x2="302" y2="451" start-border-pos="0.8534414619207382" end-border-pos="0.375" name-position="0,20">
+                  <points>
+                    <point x="403" y="451" />
+                    <point x="302" y="451" />
+                  </points>
+                </layout>
+                <relation from="02a87c81c48f4c609bd7a169e9987b25" from-iid="e27989f6d15446e38c39a1d1087f2977" to="f400c99c1ac044dda8501e27aa1ae46a" to-iid="845ef6acb1674c8d97b4d5c92a341843" />
+              </item>
+              <item id="eb52dacdcdd042d29e36c44ed166b684" iid="3b0e784ab29e42b79cec7a8cc3aaeec8" creation-date="04/16/2024 13:54:39" order-index="3" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="1335" y1="624" x2="1335" y2="545" start-border-pos="0.125" end-border-pos="0.5740273743867874" name-position="0,20">
+                  <points>
+                    <point x="1335" y="624" />
+                    <point x="1335" y="545" />
+                  </points>
+                </layout>
+                <relation from="396dd9910f5045c3816f42ec4c07e809" from-iid="b645482c527445c684e1a9ad26966787" to="7cc6844794e8496e9aa08728f2e7c322" to-iid="3c3fc08e63d14ce88429b73bb4b9b577" />
+              </item>
+              <item id="4b96206922854cd585dc3734082244fb" iid="5e1814482c00487da21aaf56102abf58" creation-date="04/16/2024 13:54:39" order-index="4" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-to-fields="false" auto-path="" x1="1042" y1="430" x2="1091" y2="430" start-border-pos="0.2908496744930744" end-border-pos="0.875" name-position="0,20">
+                  <points>
+                    <point x="1042" y="430" />
+                    <point x="1091" y="430" />
+                  </points>
+                </layout>
+                <relation from="e8c7faf462774f08974f28cd987e64b4" from-iid="99b85ed553704cc782f460e0a8d3440f" to="7cc6844794e8496e9aa08728f2e7c322" to-iid="3c3fc08e63d14ce88429b73bb4b9b577" />
+              </item>
+              <item id="1db6df7e663845d0b547ae1993e687e3" iid="46c10b4fc17f4218b1066f1c07cb626c" creation-date="04/16/2024 13:54:39" order-index="5" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="1194" y1="624" x2="1194" y2="545" start-border-pos="0.125" end-border-pos="0.6759726256132126" name-position="0,20">
+                  <points>
+                    <point x="1194" y="624" />
+                    <point x="1194" y="545" />
+                  </points>
+                </layout>
+                <relation from="cf8993575bd649bba503fc4b1000fc51" from-iid="b247a30698d345cc956c7cf72b31e679" to="7cc6844794e8496e9aa08728f2e7c322" to-iid="3c3fc08e63d14ce88429b73bb4b9b577" />
+              </item>
+              <item id="6ffa33ab6576472cb639cc94364aace8" iid="eac87d77a20b4d9aa46d0ffef3424db5" creation-date="04/16/2024 13:54:39" order-index="6" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="perpendicular" lock-to-fields="false" auto-path="" x1="593" y1="533" x2="694" y2="533" start-border-pos="0.4612341821193695" end-border-pos="0.875" name-position="0,20">
+                  <points>
+                    <point x="593" y="533" />
+                    <point x="694" y="533" />
+                  </points>
+                </layout>
+                <relation from="02a87c81c48f4c609bd7a169e9987b25" from-iid="e27989f6d15446e38c39a1d1087f2977" to="e8c7faf462774f08974f28cd987e64b4" to-iid="99b85ed553704cc782f460e0a8d3440f" />
+              </item>
+              <item id="e8c7faf462774f08974f28cd987e64b4" iid="99b85ed553704cc782f460e0a8d3440f" creation-date="04/16/2024 13:54:39" order-index="8" type="entity">
+                <layout ax="694" ay="380" awidth="348" aheight="306" x="689" y="375" width="289" height="306" />
+                <classifier />
+                <class />
+              </item>
+              <item id="24afb05a1459435d9fcfe1c72a58b8ec" iid="3c6a7466838143b4aa4a5078d6e52556" creation-date="04/16/2024 13:54:39" order-index="10" type="entity">
+                <layout ax="337" ay="645" awidth="322" aheight="172" x="332" y="640" width="332" height="172" />
+                <classifier />
+                <class />
+              </item>
+              <item id="e0ec31d855364a32bc9bb7b7c0c672e5" iid="1f8517f93f6b41b9971edd579d616fb7" creation-date="04/16/2024 13:54:39" order-index="11" type="entity">
+                <layout ax="1086" ay="-13.5" awidth="344" aheight="249" x="1086" y="-13.5" width="334" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="c5c1f4dcfa0e448ab08fc62b2588dd33" iid="8aaaf9dbff554126bd97756b0e275c88" creation-date="04/16/2024 13:54:39" order-index="9" type="entity">
+                <layout ax="1091" ay="-310" awidth="334" aheight="212" x="1086" y="-310" width="226" height="212" />
+                <classifier />
+                <class />
+              </item>
+              <item id="7cc6844794e8496e9aa08728f2e7c322" iid="3c3fc08e63d14ce88429b73bb4b9b577" creation-date="04/16/2024 13:54:39" order-index="12" type="entity">
+                <layout ax="1091" ay="315" awidth="347" aheight="230" x="1091" y="315" width="337.5" height="218" />
+                <classifier />
+                <class />
+              </item>
+              <item id="396dd9910f5045c3816f42ec4c07e809" iid="b645482c527445c684e1a9ad26966787" creation-date="04/16/2024 13:54:39" order-index="13" type="entity">
+                <layout ax="1265.25" ay="624.5" awidth="140" aheight="106.5" x="1287.25" y="674" width="96" height="106.5" />
+                <classifier />
+                <class />
+              </item>
+              <item id="cf8993575bd649bba503fc4b1000fc51" iid="b247a30698d345cc956c7cf72b31e679" creation-date="04/16/2024 13:54:39" order-index="14" type="entity">
+                <layout ax="1123.75" ay="624.5" awidth="140" aheight="106.5" x="1138.25" y="674" width="111" height="106.5" />
+                <classifier />
+                <class />
+              </item>
+              <item id="c10b4ae4ea454ce9bca1f3f8e55b6d07" iid="2695f618c081499aae2f47c6c5062e5e" creation-date="04/16/2024 13:54:39" order-index="15" type="entity">
+                <layout ax="364" ay="109.5" awidth="268" aheight="93.5" x="359" y="140" width="278" height="93.5" />
+                <classifier />
+                <class />
+              </item>
+              <item id="290644eafb8a4e4aa389d2efb43d8dcc" iid="5a8b1bacab434bd4bb8e0d17e1ebc78e" creation-date="04/16/2024 13:54:39" order-index="16" type="entity">
+                <layout ax="728" ay="214" awidth="280" aheight="140" x="728" y="214" width="290" height="140" />
+                <classifier />
+                <class />
+              </item>
+              <item id="ca5175889c284e92bf96abf3ae77f787" iid="0111eeaede0c408d9fbecdd5fec8df53" creation-date="04/16/2024 13:54:39" order-index="17" type="entity">
+                <layout ax="1511.5" ay="354" awidth="286" aheight="97" x="1506.5" y="379.5" width="296" height="97" />
+                <classifier />
+                <class />
+              </item>
+              <item id="326f0f246a714617b7b58ee22a0c50ed" iid="0cbbbbe9099f41da8a17afc59993c955" creation-date="04/16/2024 13:54:39" order-index="18" type="entity">
+                <layout ax="1518" ay="-436.5" awidth="332" aheight="476" x="1518" y="-436.5" width="332" height="476" />
+                <classifier />
+                <class />
+              </item>
+              <item id="f400c99c1ac044dda8501e27aa1ae46a" iid="845ef6acb1674c8d97b4d5c92a341843" creation-date="04/16/2024 13:54:39" order-index="19" type="entity">
+                <layout ax="5" ay="341" awidth="297" aheight="220.5" x="0" y="336" width="307" height="220.5" />
+                <classifier />
+                <class />
+              </item>
+              <item id="02a87c81c48f4c609bd7a169e9987b25" iid="e27989f6d15446e38c39a1d1087f2977" creation-date="04/16/2024 13:54:39" order-index="20" type="entity">
+                <layout ax="403" ay="266" awidth="190" aheight="316" x="398" y="261" width="200" height="316" />
+                <classifier />
+                <class />
+              </item>
+              <item id="433fcf1ed50440db8d63374e6c4bd08d" iid="59e4ecd44fe946fdbf6548d9c2cb9631" creation-date="04/16/2024 14:30:34" order-index="22" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1425" y1="-204" x2="1518" y2="-199" start-border-pos="0.375" end-border-pos="0.8752626031637192" start-local-pos="106" end-local-pos="237.5" name-position="0,20">
+                  <points>
+                    <point x="1425" y="-204" />
+                    <point x="1518" y="-199" />
+                  </points>
+                </layout>
+                <relation from="c5c1f4dcfa0e448ab08fc62b2588dd33" from-iid="8aaaf9dbff554126bd97756b0e275c88" to="326f0f246a714617b7b58ee22a0c50ed" to-iid="0cbbbbe9099f41da8a17afc59993c955" />
+              </item>
+              <item id="34e809a0abf840d3883f686dcc8cf591" iid="b324b03d64c045af8c0c2064f90547bd" creation-date="04/16/2024 14:31:16" order-index="23" type="relation">
+                <layout start-role-position="25,15" end-role-position="25,-15" start-multiplicity-position="25,-15" end-multiplicity-position="25,15" line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="498" y1="645" x2="498" y2="582" start-border-pos="0.125" end-border-pos="0.625" start-local-pos="166" end-local-pos="100" name-position="0,20">
+                  <points>
+                    <point x="498" y="645" />
+                    <point x="498" y="582" />
+                  </points>
+                </layout>
+                <relation from="24afb05a1459435d9fcfe1c72a58b8ec" from-iid="3c6a7466838143b4aa4a5078d6e52556" to="02a87c81c48f4c609bd7a169e9987b25" to-iid="e27989f6d15446e38c39a1d1087f2977" />
+              </item>
+              <item id="7c31c22d35b042bc94f79f7efc1690d8" iid="3b5bb289f37248298ff11303ed50a46b" creation-date="04/16/2024 14:55:04" order-index="24" type="relation">
+                <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="1259" y1="-14" x2="1258" y2="-98" start-border-pos="0.12571428571428572" end-border-pos="0.6246366279069767" start-local-pos="88" end-local-pos="172.5" name-position="0,20">
+                  <points>
+                    <point x="1259" y="-14" />
+                    <point x="1258" y="-98" />
+                  </points>
+                </layout>
+                <relation from="e0ec31d855364a32bc9bb7b7c0c672e5" from-iid="1f8517f93f6b41b9971edd579d616fb7" to="c5c1f4dcfa0e448ab08fc62b2588dd33" to-iid="8aaaf9dbff554126bd97756b0e275c88" />
+              </item>
+            </layer>
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p831c5c324bed427f98719a98f811f221_308113431" name="Packages" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author>Soptelea Sebastian</author>
+          </authors>
+          <description />
+          <creation-date>04/16/2024 13:54:39</creation-date>
+          <change-date>04/16/2024 13:54:39</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tv8393415e696b4cdc87aec737b250e5a7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+        </tagged-values>
+        <abstract-items />
+        <layer id="5f2c43a09e234367bcb273714cbfcf05" name="Default" visible="true" enabled="true" locked="false">
+          <item id="71c9599145494e2b962e800727e80dfa" iid="10378204259d418287ce3caa612f7db7" creation-date="04/16/2024 13:54:39" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="84" aheight="56" x="0" y="0" width="84" height="56" expanded="-20,0,84,56" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
