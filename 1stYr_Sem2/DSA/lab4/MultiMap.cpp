@@ -66,8 +66,8 @@ void MultiMap::add(TKey c, TValue v) {
 }
 // WC = Theta(n), when the linked list array is full and we have to resize it, the other operations being done in constant time.
 // BC = Theta(1), when the linked list array is not full (so no resize), the add part being done in constant time.
-// TC = O(n), because the worst case is when the linked list array is full and we have to resize it, but it can happen that the linked
-// list array is not full, the add part being done in constant time.
+// TC = Theta(1) amortized, because the worst case is when the linked list array is full and we have to resize it, but it can happen that the linked
+// list array is not full, the add part being done in constant time. Resizing is less and less frequent as the size of the linked list array increases.
 
 bool MultiMap::remove(TKey c, TValue v) {
 	int current = this->head;
