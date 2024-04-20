@@ -4,7 +4,7 @@ ok = False
 
 
 def for_tests():
-    from graph_pw2_tests import Testing
+    from graph_pw5_tests import Testing
     import unittest
 
     suite = unittest.TestLoader().loadTestsFromTestCase(Testing)
@@ -182,32 +182,28 @@ class Graph:
         self.outbound[src].remove(dst)
         self.inbound[dst].remove(src)
 
-    def lowest_length_path_aux(self, src, dst):
-        """
-        We are going to use a backwards BFS algorithm applied to the ending vertex to find the lowest length path
-        between two vertices.
-        :param src:
-        :param dst:
-        :return:
-        """
-        queue = []
-        prev = {}
-        dist = {}
-        visited = set()
-        queue.append(dst)
-        visited.add(dst)
-        dist[dst] = 0
-        while len(queue) > 0:
-            current = queue.pop(0)
-            for neighbour in self.source_iter(current):
-                if neighbour not in visited:
-                    visited.add(neighbour)
-                    queue.append(neighbour)
-                    dist[neighbour] = dist[current] + 1
-                    prev[neighbour] = current
-                    if neighbour == src:
-                        return dist[neighbour], prev
-        return -1, {}
+    def minimum_vertex_coloring_aux(self):
+        colors = {}
+        for vertex in self.vert_iter():
+            colors[vertex] = None
+
+        def is_color_available(vert, color):
+            for neighbor in self.inbound[vert]:
+                if colors[neighbor] == color:
+                    return False
+            return True
+
+        def get_lowest_available_color(vert):
+            used_colors = set(colors[neighbor] for neighbor in self.inbound[vert] if colors[neighbor] is not None)
+            for color in range(self.count_edges()):
+                if color not in used_colors and is_color_available(vert, color):
+                    return color
+
+        # Color each vertex using the greedy algorithm
+        for vertex in self.vert_iter():
+            colors[vertex] = get_lowest_available_color(vertex)
+
+        return colors
 
 
 class UI:
@@ -223,7 +219,7 @@ class UI:
                       "[1] Vertex operation menu.\n"
                       "[2] Edge operation menu.\n"
                       "[3] Graph operation menu.\n"
-                      "[4] Lowest length path between two vertices.\n"
+                      "[4] Find minimum coloring of vertices.\n"
                       "[5] Exit.\n")
                 command = input("Enter input: ")
                 if not command.isdigit():
@@ -238,7 +234,7 @@ class UI:
                 elif command == 3:
                     self.graph_menu()
                 elif command == 4:
-                    self.lowest_length_path()
+                    self.minimum_vertex_coloring()
                 elif command == 5:
                     print("Goodbye!")
                     quit()
@@ -391,26 +387,10 @@ class UI:
         except ValueError:
             print("Invalid command.\n")
 
-    def lowest_length_path(self):
+    def minimum_vertex_coloring(self):
         try:
-            src = int(input("Enter source vertex: "))
-            dst = int(input("Enter destination vertex: "))
-            if not self.graph.is_vertex(src) or not self.graph.is_vertex(dst):
-                raise ValueError("Vertex is nonexistent.\n")
-            if src == dst:
-                raise ValueError("Source and destination vertices are the same. Lowest length path is 0.\n")
-
-            result, prev = self.graph.lowest_length_path_aux(src, dst)
-            if result == -1:
-                print("No path between the two vertices.\n")
-            else:
-                print("Lowest length path between the two vertices: {}\n".format(result))
-                correct_path = []
-                while dst != src:
-                    correct_path.append(src)
-                    src = prev[src]
-                correct_path.append(dst)
-                print("Path:", correct_path, "\n")
+            colors = self.graph.minimum_vertex_coloring_aux()
+            print("Coloring: {}\n".format(colors))
         except ValueError as ve:
             print(ve)
 

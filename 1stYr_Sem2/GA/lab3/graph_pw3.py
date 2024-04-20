@@ -4,7 +4,7 @@ ok = False
 
 
 def for_tests():
-    from graph_pw2_tests import Testing
+    from graph_pw3_tests import Testing
     import unittest
 
     suite = unittest.TestLoader().loadTestsFromTestCase(Testing)
@@ -58,7 +58,7 @@ def random_graph_generator(nr_vertices, nr_edges):
                 while graph.is_an_edge(src, dst):
                     src = random.randint(0, nr_vertices)
                     dst = random.randint(0, nr_vertices)
-                cost = random.randint(0, 100)
+                cost = random.randint(1, 100)
                 graph.add_edge(src, dst, cost)
                 test = True
             except ValueError:
@@ -182,32 +182,37 @@ class Graph:
         self.outbound[src].remove(dst)
         self.inbound[dst].remove(src)
 
-    def lowest_length_path_aux(self, src, dst):
+    def lowest_cost_path_aux(self, src, dst):
         """
-        We are going to use a backwards BFS algorithm applied to the ending vertex to find the lowest length path
-        between two vertices.
+        We will find the lowest cost path between two vertices using Bellman-Ford's algorithm. If there are negative
+        cost cycles, we will return -1. We will use a matrix defined as d[x,k]=the cost of the lowest cost walk from
+        src to x and of length at most k.
         :param src:
         :param dst:
         :return:
         """
-        queue = []
-        prev = {}
-        dist = {}
-        visited = set()
-        queue.append(dst)
-        visited.add(dst)
-        dist[dst] = 0
-        while len(queue) > 0:
-            current = queue.pop(0)
-            for neighbour in self.source_iter(current):
-                if neighbour not in visited:
-                    visited.add(neighbour)
-                    queue.append(neighbour)
-                    dist[neighbour] = dist[current] + 1
-                    prev[neighbour] = current
-                    if neighbour == src:
-                        return dist[neighbour], prev
-        return -1, {}
+        vert_count = self.count_vertices()
+        dist = [[float('inf')] * vert_count for _ in range(vert_count)]
+        prev = [[None] * vert_count for _ in range(vert_count)]
+        dist[0][src] = 0
+
+        for k in range(1, vert_count):
+            prev[k] = prev[k - 1].copy()
+            for srcv, dstv, cost in self.edge_iter():
+                if dist[k - 1][srcv] != float('inf') and dist[k][dstv] > dist[k - 1][srcv] + cost:
+                    dist[k][dstv] = dist[k - 1][srcv] + cost
+                    prev[k][dstv] = srcv
+
+        for srcv, dstv, cost in self.edge_iter():
+            if dist[vert_count - 2][srcv] != float('inf') and dist[vert_count - 2][srcv] + cost < dist[vert_count - 1][dstv]:
+                print("Negative cycle detected")
+                print(srcv, dstv, cost)
+                return None, prev
+
+        if dist[vert_count - 1][dst] == float('inf'):
+            return "No path exists"
+
+        return dist[vert_count - 1][dst], prev
 
 
 class UI:
@@ -223,7 +228,7 @@ class UI:
                       "[1] Vertex operation menu.\n"
                       "[2] Edge operation menu.\n"
                       "[3] Graph operation menu.\n"
-                      "[4] Lowest length path between two vertices.\n"
+                      "[4] Lowest cost path between two vertices.\n"
                       "[5] Exit.\n")
                 command = input("Enter input: ")
                 if not command.isdigit():
@@ -238,7 +243,7 @@ class UI:
                 elif command == 3:
                     self.graph_menu()
                 elif command == 4:
-                    self.lowest_length_path()
+                    self.lowest_cost_path()
                 elif command == 5:
                     print("Goodbye!")
                     quit()
@@ -308,7 +313,6 @@ class UI:
                 elif command == 2:
                     vertex = int(input("Enter vertex: "))
                     print("Set of outbound edges: {}\n".format(list(self.graph.source_iter(vertex))))
-                    # outbound edges = edgeurile ce au ca sursa vertexu original adica de la vertex la restu si da setu ala
                 elif command == 3:
                     vertex = int(input("Enter vertex: "))
                     print("Set of inbound edges: {}\n".format(list(self.graph.destination_iter(vertex))))
@@ -391,26 +395,26 @@ class UI:
         except ValueError:
             print("Invalid command.\n")
 
-    def lowest_length_path(self):
+    def lowest_cost_path(self):
         try:
             src = int(input("Enter source vertex: "))
             dst = int(input("Enter destination vertex: "))
             if not self.graph.is_vertex(src) or not self.graph.is_vertex(dst):
                 raise ValueError("Vertex is nonexistent.\n")
-            if src == dst:
-                raise ValueError("Source and destination vertices are the same. Lowest length path is 0.\n")
 
-            result, prev = self.graph.lowest_length_path_aux(src, dst)
+            result, prev = self.graph.lowest_cost_path_aux(src, dst)
             if result == -1:
-                print("No path between the two vertices.\n")
+                print("\nNo path between the two vertices or negative cost cycles detected.\n")
             else:
-                print("Lowest length path between the two vertices: {}\n".format(result))
-                correct_path = []
-                while dst != src:
-                    correct_path.append(src)
-                    src = prev[src]
-                correct_path.append(dst)
-                print("Path:", correct_path, "\n")
+                print("\nLowest cost path between the two vertices: {}".format(result))
+                path = []
+                count = self.graph.count_vertices() - 1
+                while dst is not None and count >= 0:
+                    path.append(dst)
+                    dst = prev[count][dst]
+                    count -= 1
+                path.reverse()
+                print("Path: {}\n".format(path))
         except ValueError as ve:
             print(ve)
 

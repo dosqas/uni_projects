@@ -4,7 +4,7 @@ ok = False
 
 
 def for_tests():
-    from graph_pw2_tests import Testing
+    from graph_pw4_tests import Testing
     import unittest
 
     suite = unittest.TestLoader().loadTestsFromTestCase(Testing)
@@ -157,7 +157,7 @@ class Graph:
         temp_connections = []
         for src in self.inbound[ver]:
             temp_connections.append(src)
-        for src in temp_connections:
+        for src in temp_connecti++ons:
             self.remove_edge(src, ver)
 
         del self.outbound[ver]
@@ -182,32 +182,50 @@ class Graph:
         self.outbound[src].remove(dst)
         self.inbound[dst].remove(src)
 
-    def lowest_length_path_aux(self, src, dst):
+    def is_cycle(self, edges):
+        visited = {vertex: False for vertex in self.vert_iter()}
+
+        def dfs(vertex, parent):
+            visited[vertex] = True
+
+            for edge in edges:
+                if edge[0] == vertex:
+                    neighbor = edge[1]
+                elif edge[1] == vertex:
+                    neighbor = edge[0]
+                else:
+                    continue
+
+                if visited[neighbor] is False:
+                    if dfs(neighbor, vertex):
+                        return True
+                elif parent is not None and neighbor != parent:
+                    return True
+
+            return False
+
+        for vertex in self.vert_iter():
+            if visited[vertex] is False:
+                if dfs(vertex, None):
+                    return True
+
+        return False
+
+    def minimal_tree_aux(self):
         """
-        We are going to use a backwards BFS algorithm applied to the ending vertex to find the lowest length path
-        between two vertices.
-        :param src:
-        :param dst:
+        Given an undirected graph, we build a minimal spanning tree using Kruskal's algorithm.
         :return:
         """
-        queue = []
-        prev = {}
-        dist = {}
-        visited = set()
-        queue.append(dst)
-        visited.add(dst)
-        dist[dst] = 0
-        while len(queue) > 0:
-            current = queue.pop(0)
-            for neighbour in self.source_iter(current):
-                if neighbour not in visited:
-                    visited.add(neighbour)
-                    queue.append(neighbour)
-                    dist[neighbour] = dist[current] + 1
-                    prev[neighbour] = current
-                    if neighbour == src:
-                        return dist[neighbour], prev
-        return -1, {}
+        e = self.edge_iter()
+        e = sorted(e, key=lambda x: x[2])
+        edges = []
+        for edge in range(0, self.count_edges(), 1):
+            temp_edges = copy.deepcopy(edges)
+            temp_edges.append(e[edge])
+            if self.is_cycle(temp_edges) is False:
+                edges.append(e[edge])
+
+        return edges
 
 
 class UI:
@@ -223,7 +241,7 @@ class UI:
                       "[1] Vertex operation menu.\n"
                       "[2] Edge operation menu.\n"
                       "[3] Graph operation menu.\n"
-                      "[4] Lowest length path between two vertices.\n"
+                      "[4] Minimal spanning tree.\n"
                       "[5] Exit.\n")
                 command = input("Enter input: ")
                 if not command.isdigit():
@@ -238,7 +256,7 @@ class UI:
                 elif command == 3:
                     self.graph_menu()
                 elif command == 4:
-                    self.lowest_length_path()
+                    self.minimal_tree()
                 elif command == 5:
                     print("Goodbye!")
                     quit()
@@ -308,7 +326,6 @@ class UI:
                 elif command == 2:
                     vertex = int(input("Enter vertex: "))
                     print("Set of outbound edges: {}\n".format(list(self.graph.source_iter(vertex))))
-                    # outbound edges = edgeurile ce au ca sursa vertexu original adica de la vertex la restu si da setu ala
                 elif command == 3:
                     vertex = int(input("Enter vertex: "))
                     print("Set of inbound edges: {}\n".format(list(self.graph.destination_iter(vertex))))
@@ -391,26 +408,13 @@ class UI:
         except ValueError:
             print("Invalid command.\n")
 
-    def lowest_length_path(self):
+    def minimal_tree(self):
         try:
-            src = int(input("Enter source vertex: "))
-            dst = int(input("Enter destination vertex: "))
-            if not self.graph.is_vertex(src) or not self.graph.is_vertex(dst):
-                raise ValueError("Vertex is nonexistent.\n")
-            if src == dst:
-                raise ValueError("Source and destination vertices are the same. Lowest length path is 0.\n")
-
-            result, prev = self.graph.lowest_length_path_aux(src, dst)
-            if result == -1:
-                print("No path between the two vertices.\n")
-            else:
-                print("Lowest length path between the two vertices: {}\n".format(result))
-                correct_path = []
-                while dst != src:
-                    correct_path.append(src)
-                    src = prev[src]
-                correct_path.append(dst)
-                print("Path:", correct_path, "\n")
+            edges = self.graph.minimal_tree_aux()
+            print("Minimal spanning tree:", end=" ")
+            for edge in edges:
+                print(edge, end=" ")
+            print("\n")
         except ValueError as ve:
             print(ve)
 
