@@ -40,9 +40,9 @@ int Bag::nextPrime(int n) {
 	}
 	return n;
 }
-// WC = O(n*sqrt(n)), when the next prime number is quite far from n
+// WC = O(n*loglogn), when the next prime number is quite far from n (n*loglogn is the time complexity of the sieve of Eratosthenes)
 // BC = O(n), when the next prime number is very close to n
-// TC = O(n*sqrt(n)), since the distance to next prime number varies
+// TC = O(n*loglogn), since the distance to next prime number varies
 
 void Bag::resize() {
 	int copyOfm = this->m;
@@ -87,9 +87,10 @@ void Bag::resize() {
 	delete[] this->T;
 	this->T = copyOfT;
 }
-
-
-// WC = BC = TC = Theta(m+n), where n is the number of elements in the bag and m is the number of elements in the hash table
+// WC = O(n^2*loglogn + m), when the next prime number is quite far from m (n*loglogn is the time complexity of the sieve of
+// Eratosthenes)
+// BC = O(n + m), when the next prime number is very close to m
+// TC = O(n^2*loglogn + m), since the distance to next prime number varies
 
 void Bag::add(TElem elem) {
 	if (this->n / this->m > 0.7)
@@ -108,9 +109,9 @@ void Bag::add(TElem elem) {
 	}
 	this->n++;
 }
-// WC = Theta(m+n), when we need to resize the hash table
-// BC = Theta(1), when the position is empty and there is no need to resize the hash table
-// TC = O(m+n) amortized, since in time we will resize the hash table less and less often
+// WC = O(n^2*loglogn + m), when we need resizing and the next prime number is quite far from m 
+// BC = Theta(1), when we do not need resizing
+// TC = O(n^2*loglogn + m), since the distance to next prime number varies
 
 bool Bag::remove(TElem elem) {
 	int position = (this->h)(elem);
@@ -202,4 +203,4 @@ Bag::~Bag() {
 	}
 	delete[] this->T;
 }
-// WC = BC = TC = Theta(m+n), where n is the number of elements in the bag and m is the number of elements in the hash table
+// WC = BC = TC = Theta(n), where n is the number of elements in the bag

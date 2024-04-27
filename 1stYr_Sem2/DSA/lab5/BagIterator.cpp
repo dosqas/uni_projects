@@ -52,7 +52,7 @@ void BagIterator::next() {
 }
 
 // WC = Theta(m), when currentPos points to the first element and the next element is the last one in the hash table
-// BC = Theta(1), when currentPos points to the first element and the next element is the second one in the hash table
+// BC = Theta(1), when currentPos points to the first element and the next element is the second one in the hash table or in the chain
 // AC = O(m), since the next element can be anywhere in the hash table
 
 bool BagIterator::valid() const {
