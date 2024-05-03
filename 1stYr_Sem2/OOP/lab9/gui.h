@@ -344,12 +344,10 @@ public slots:
     }
     void adm_op5() {
         window->close();
-        // Create the main window
         window = new QWidget();
         window->setWindowTitle("Dog Data Distribution");
-        window->setMinimumSize(800, 600); // Set a minimum size for the window
+        window->setMinimumSize(800, 600);
 
-        // Get the dog data
         vector<class Dog>& dogs = serv.getServiceDogs();
         std::map<int, int> ageCounts;
         std::map<string, int> breedCounts;
@@ -358,21 +356,18 @@ public slots:
             breedCounts[dog.get_breed()]++;
         }
 
-        // Convert the map to two vectors: one for the keys (ages) and one for the values (counts)
         QVector<double> ages, counts;
         for (const auto& pair : ageCounts) {
             ages.push_back(pair.first);
             counts.push_back(pair.second);
         }
 
-        // Create a QBarSeries to draw the bar chart
         QBarSeries* series = new QBarSeries();
 
-        // Add data to the series
         for (int i = 0; i < ages.size(); ++i) {
             QBarSet* set = new QBarSet(QString::number(ages[i]));
             *set << counts[i];
-            set->setLabel(QString::number(ages[i])); // Set the label to the age
+            set->setLabel(QString::number(ages[i]));
             QObject::connect(set, &QBarSet::hovered, [counts, i](bool isHovered) {
                 if (isHovered) {
                     QToolTip::showText(QCursor::pos(), QString::number(counts[i]));
@@ -382,25 +377,20 @@ public slots:
         }
 
 
-        // Create a chart and add the series to it
         QChart* chart = new QChart();
         chart->addSeries(series);
         chart->setTitle("Dog Age Distribution");
         chart->setAnimationOptions(QChart::SeriesAnimations);
 
-        // Create a QChartView, set the chart on it, and set a minimum size for the view
         QChartView* view = new QChartView(chart);
         view->setMinimumSize(600, 400);
 
-        // Create a scroll area and set the chart view as its widget
         QScrollArea* scrollArea = new QScrollArea();
         scrollArea->setAlignment(Qt::AlignCenter);
         scrollArea->setWidget(view);
 
-        // Create a QPieSeries for the pie chart
         QPieSeries* pieSeries = new QPieSeries();
 
-        // Add data to the pie series
         for (const auto& pair : breedCounts) {
             QPieSlice* slice = new QPieSlice(QString::fromStdString(pair.first), pair.second);
             QObject::connect(slice, &QPieSlice::hovered, [pair](bool isHovered) {
@@ -412,31 +402,30 @@ public slots:
         }
 
 
-        // Create a chart for the pie series
         QChart* pieChart = new QChart();
         pieChart->addSeries(pieSeries);
         pieChart->setTitle("Dog Breed Distribution");
         pieChart->setAnimationOptions(QChart::SeriesAnimations);
 
-        // Create a QChartView for the pie chart and set a minimum size for the view
         QChartView* pieView = new QChartView(pieChart);
         pieView->setMinimumSize(600, 400);
 
-        // Create a scroll area for the pie chart view and set the pie chart view as its widget
         QScrollArea* pieScrollArea = new QScrollArea();
         pieScrollArea->setAlignment(Qt::AlignCenter);
         pieScrollArea->setWidget(pieView);
 
-        // Create a layout and add the scroll areas to it
         QVBoxLayout* layout = new QVBoxLayout();
         layout->addWidget(scrollArea);
         layout->addWidget(pieScrollArea);
 
-        // Set the layout on the window and show the window
+        QPushButton* button = new QPushButton("Back");
+        layout->addWidget(button);
+
         window->setLayout(layout);
         window->show();
-    }
 
+        connect(button, &QPushButton::clicked, this, &GUI::admin_menu);
+    }
 
 
 
